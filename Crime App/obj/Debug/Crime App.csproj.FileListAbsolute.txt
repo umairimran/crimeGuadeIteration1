@@ -168,3 +168,63 @@ C:\Users\LENOVO\source\repos\Bilal Project Crime Guard\CrimeGuardSofware\Crime A
 C:\Users\LENOVO\source\repos\Bilal Project Crime Guard\CrimeGuardSofware\Crime App\obj\Debug\Crime_App.crime_trend_page.resources
 C:\Users\LENOVO\source\repos\Bilal Project Crime Guard\CrimeGuardSofware\Crime App\obj\Debug\Crime_App.UserControl1.resources
 C:\Users\LENOVO\source\repos\Bilal Project Crime Guard\CrimeGuardSofware\Crime App\obj\Debug\Crime_App.Form1.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\Crime App.exe.config
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\Crime App.exe
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\Crime App.pdb
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\Deedle.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\FSharp.Core.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\MaterialSkin.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\System.Data.SQLite.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\Deedle.pdb
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\FSharp.Core.xml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.pdb
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.xml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\System.Data.SQLite.xml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\cs\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\de\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\en\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\es\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\fr\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\it\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\ja\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\ko\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\pl\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\pt-BR\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\ru\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\tr\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Login_Page.g.cs
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Mainwindow.g.cs
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\App.g.cs
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App_MarkupCompile.cache
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App_MarkupCompile.lref
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Login_Page.baml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Mainwindow.baml
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.g.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.crime_input_page.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.crime_trend_page.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.Dashboard.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.Form1.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.search_data_in_database.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.UserControl1.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.CopyComplete
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.exe
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.pdb
