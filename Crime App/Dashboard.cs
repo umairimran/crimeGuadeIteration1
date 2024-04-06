@@ -267,5 +267,16 @@ namespace Crime_App
         {
 
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Fir_Module f = new Fir_Module();
+            f.Show();
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
