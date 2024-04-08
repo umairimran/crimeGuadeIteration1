@@ -418,3 +418,13 @@ C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\System.Thr
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App_Content.g.cs
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.Fir_Module.resources
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.Form2.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.register_fir.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.new_prisoner_form.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.prisoner_form.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.prison_management_system_module.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.visitor_form.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.visitor_register_form.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.doctor_management_module.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.personalBelongingsManagementPortal.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.view_medical_report_form.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.view_prisoner_belongings.resources

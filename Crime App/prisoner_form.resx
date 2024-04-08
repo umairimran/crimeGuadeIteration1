@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox6.Text" xml:space="preserve">
+    <value>prisoner will come to doctor then state his symptoms and disease then select doctor then he will click on submit on submission doctor page will opend in which doctor will fill medical report page and a medical report will be generated first doctor will check whether this prisoner exists in the medical reports page or not if present he will inform him in that case the doctor will just update the record</value>
+  </data>
 </root>
