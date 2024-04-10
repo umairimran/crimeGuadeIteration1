@@ -35,5 +35,20 @@ namespace Crime_App
             viewParticularCell v = new viewParticularCell();
             v.Show();
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            assign_cell_staff s = new assign_cell_staff();
+            s.Show();
+;
+        }
+
+        private void richTextBox5_TextChanged(object sender, EventArgs e)
+        {
+            view_table_cell_staff_prisoner_combine c = new view_table_cell_staff_prisoner_combine();
+            c.Show();
+
+
+        }
     }
 }

@@ -30,6 +30,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -186,6 +187,12 @@
     <Compile Include="addPrisonerToCell.Designer.cs">
       <DependentUpon>addPrisonerToCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="assign_cell_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assign_cell_staff.Designer.cs">
+      <DependentUpon>assign_cell_staff.cs</DependentUpon>
+    </Compile>
     <Compile Include="cell_management.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +210,12 @@
     </Compile>
     <Compile Include="doctor_management_module.Designer.cs">
       <DependentUpon>doctor_management_module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doctor_reports_database_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doctor_reports_database_view.Designer.cs">
+      <DependentUpon>doctor_reports_database_view.cs</DependentUpon>
     </Compile>
     <Compile Include="fir_module.cs">
       <SubType>Form</SubType>
@@ -258,6 +271,12 @@
     <Compile Include="prison_management_system_module.Designer.cs">
       <DependentUpon>prison_management_system_module.cs</DependentUpon>
     </Compile>
+    <Compile Include="registerNewDoctorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registerNewDoctorForm.Designer.cs">
+      <DependentUpon>registerNewDoctorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="register_fir.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -282,6 +301,12 @@
     <Compile Include="viewParticularCell.Designer.cs">
       <DependentUpon>viewParticularCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="view_doctor_information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_doctor_information.Designer.cs">
+      <DependentUpon>view_doctor_information.cs</DependentUpon>
+    </Compile>
     <Compile Include="view_medical_report_form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -293,6 +318,12 @@
     </Compile>
     <Compile Include="view_prisoner_belongings.Designer.cs">
       <DependentUpon>view_prisoner_belongings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_table_cell_staff_prisoner_combine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_table_cell_staff_prisoner_combine.Designer.cs">
+      <DependentUpon>view_table_cell_staff_prisoner_combine.cs</DependentUpon>
     </Compile>
     <Compile Include="visitor_form.cs">
       <SubType>Form</SubType>
@@ -357,6 +388,9 @@
     <EmbeddedResource Include="addPrisonerToCell.resx">
       <DependentUpon>addPrisonerToCell.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="assign_cell_staff.resx">
+      <DependentUpon>assign_cell_staff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cell_management.resx">
       <DependentUpon>cell_management.cs</DependentUpon>
     </EmbeddedResource>
@@ -371,6 +405,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="doctor_management_module.resx">
       <DependentUpon>doctor_management_module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doctor_reports_database_view.resx">
+      <DependentUpon>doctor_reports_database_view.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fir_module.resx">
       <DependentUpon>fir_module.cs</DependentUpon>
@@ -403,6 +440,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="registerNewDoctorForm.resx">
+      <DependentUpon>registerNewDoctorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="register_fir.resx">
       <DependentUpon>register_fir.cs</DependentUpon>
     </EmbeddedResource>
@@ -415,11 +455,17 @@
     <EmbeddedResource Include="viewParticularCell.resx">
       <DependentUpon>viewParticularCell.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view_doctor_information.resx">
+      <DependentUpon>view_doctor_information.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view_medical_report_form.resx">
       <DependentUpon>view_medical_report_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view_prisoner_belongings.resx">
       <DependentUpon>view_prisoner_belongings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_table_cell_staff_prisoner_combine.resx">
+      <DependentUpon>view_table_cell_staff_prisoner_combine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="visitor_form.resx">
       <DependentUpon>visitor_form.cs</DependentUpon>

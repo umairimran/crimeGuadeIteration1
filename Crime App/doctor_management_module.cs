@@ -16,5 +16,30 @@ namespace Crime_App
         {
             InitializeComponent();
         }
+
+        private void registerNewDoctor_TextChanged(object sender, EventArgs e)
+        {
+            registerNewDoctorForm d = new registerNewDoctorForm();
+            d.Show();
+        }
+
+        private void viewReportOfSpecificPrisoner_TextChanged(object sender, EventArgs e)
+        {
+            view_medical_report_form v = new view_medical_report_form();
+            v.Show();
+        }
+
+        private void viewReports_TextChanged(object sender, EventArgs e)
+        {
+            doctor_reports_database_view v = new doctor_reports_database_view();
+            v.Show();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            view_doctor_information d = new view_doctor_information();
+            d.Show();
+
+        }
     }
 }

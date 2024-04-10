@@ -49,7 +49,8 @@ namespace Crime_App
 
         private void richTextBox6_TextChanged(object sender, EventArgs e)
         {
-
+            cell_management c = new cell_management();
+            c.Show();
         }
     }
 }

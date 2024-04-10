@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.registerNewDoctor = new System.Windows.Forms.RichTextBox();
-            this.viewReports = new System.Windows.Forms.RichTextBox();
-            this.viewReportOfSpecificPrisoner = new System.Windows.Forms.RichTextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.viewReportOfSpecificPrisoner = new System.Windows.Forms.RichTextBox();
+            this.viewReports = new System.Windows.Forms.RichTextBox();
+            this.registerNewDoctor = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,21 +48,14 @@
             this.panel1.Size = new System.Drawing.Size(1323, 659);
             this.panel1.TabIndex = 0;
             // 
-            // registerNewDoctor
+            // richTextBox1
             // 
-            this.registerNewDoctor.Location = new System.Drawing.Point(119, 40);
-            this.registerNewDoctor.Name = "registerNewDoctor";
-            this.registerNewDoctor.Size = new System.Drawing.Size(266, 82);
-            this.registerNewDoctor.TabIndex = 0;
-            this.registerNewDoctor.Text = "register new doctor from this page";
-            // 
-            // viewReports
-            // 
-            this.viewReports.Location = new System.Drawing.Point(511, 40);
-            this.viewReports.Name = "viewReports";
-            this.viewReports.Size = new System.Drawing.Size(214, 82);
-            this.viewReports.TabIndex = 1;
-            this.viewReports.Text = "doctor can view the medical reports in form of database";
+            this.richTextBox1.Location = new System.Drawing.Point(478, 206);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(266, 82);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = "view doctor information";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // viewReportOfSpecificPrisoner
             // 
@@ -71,14 +64,25 @@
             this.viewReportOfSpecificPrisoner.Size = new System.Drawing.Size(266, 82);
             this.viewReportOfSpecificPrisoner.TabIndex = 2;
             this.viewReportOfSpecificPrisoner.Text = "doctor can view report by selecting the naem and id of prisoner";
+            this.viewReportOfSpecificPrisoner.TextChanged += new System.EventHandler(this.viewReportOfSpecificPrisoner_TextChanged);
             // 
-            // richTextBox1
+            // viewReports
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(478, 206);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(266, 82);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
+            this.viewReports.Location = new System.Drawing.Point(511, 40);
+            this.viewReports.Name = "viewReports";
+            this.viewReports.Size = new System.Drawing.Size(214, 82);
+            this.viewReports.TabIndex = 1;
+            this.viewReports.Text = "doctor can view the medical reports in form of database";
+            this.viewReports.TextChanged += new System.EventHandler(this.viewReports_TextChanged);
+            // 
+            // registerNewDoctor
+            // 
+            this.registerNewDoctor.Location = new System.Drawing.Point(119, 40);
+            this.registerNewDoctor.Name = "registerNewDoctor";
+            this.registerNewDoctor.Size = new System.Drawing.Size(266, 82);
+            this.registerNewDoctor.TabIndex = 0;
+            this.registerNewDoctor.Text = "register new doctor from this page";
+            this.registerNewDoctor.TextChanged += new System.EventHandler(this.registerNewDoctor_TextChanged);
             // 
             // doctor_management_module
             // 

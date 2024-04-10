@@ -53,6 +53,7 @@
             this.richTextBox12 = new System.Windows.Forms.RichTextBox();
             this.accessibility = new System.Windows.Forms.RichTextBox();
             this.richTextBox13 = new System.Windows.Forms.RichTextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -70,6 +71,7 @@
             this.selectCellId.Name = "selectCellId";
             this.selectCellId.Size = new System.Drawing.Size(121, 21);
             this.selectCellId.TabIndex = 1;
+            this.selectCellId.SelectedIndexChanged += new System.EventHandler(this.selectCellId_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -256,11 +258,22 @@
             this.richTextBox13.TabIndex = 23;
             this.richTextBox13.Text = "accessibility";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1203, 172);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // viewParticularCell
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1290, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.accessibility);
             this.Controls.Add(this.richTextBox13);
             this.Controls.Add(this.cleanliness);
@@ -319,5 +332,6 @@
         private System.Windows.Forms.RichTextBox richTextBox12;
         private System.Windows.Forms.RichTextBox accessibility;
         private System.Windows.Forms.RichTextBox richTextBox13;
+        private System.Windows.Forms.Button button2;
     }
 }
