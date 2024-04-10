@@ -27,5 +27,34 @@ namespace Crime_App
             visitor_register_form v = new visitor_register_form();
             v.Show();
 ;        }
+
+        private void richTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+            view_medical_report_form x = new view_medical_report_form();
+            x.Show();
+        }
+
+        private void richTextBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            create_new_belonging c= new create_new_belonging();
+            c.Show();
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+            schedule_visit s = new schedule_visit()
+;   s.Show();
+        }
+
+        private void richTextBox5_TextChanged(object sender, EventArgs e)
+        {
+            view_visitors_history v = new view_visitors_history();
+            v.Show();
+        }
     }
 }

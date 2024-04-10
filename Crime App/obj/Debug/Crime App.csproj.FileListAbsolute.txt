@@ -225,7 +225,6 @@ C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.UserControl1.resources
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.GenerateResource.cache
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.CopyComplete
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.exe
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.pdb
 C:\Users\LENOVO\source\repos\evaluation\crimeGuadeIteration1\Crime App\bin\Debug\Crime App.exe.config
@@ -438,3 +437,6 @@ C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.registerNewDoctorForm.resources
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.doctor_reports_database_view.resources
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.view_doctor_information.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.Up2Date
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.create_new_belonging.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.schedule_visit.resources

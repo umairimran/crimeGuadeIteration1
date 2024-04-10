@@ -30,7 +30,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -199,6 +199,12 @@
     <Compile Include="cell_management.Designer.cs">
       <DependentUpon>cell_management.cs</DependentUpon>
     </Compile>
+    <Compile Include="create_new_belonging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="create_new_belonging.Designer.cs">
+      <DependentUpon>create_new_belonging.cs</DependentUpon>
+    </Compile>
     <Compile Include="crime_trend_page.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -283,6 +289,12 @@
     <Compile Include="register_fir.Designer.cs">
       <DependentUpon>register_fir.cs</DependentUpon>
     </Compile>
+    <Compile Include="schedule_visit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="schedule_visit.Designer.cs">
+      <DependentUpon>schedule_visit.cs</DependentUpon>
+    </Compile>
     <Compile Include="search_data_in_database.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -324,6 +336,12 @@
     </Compile>
     <Compile Include="view_table_cell_staff_prisoner_combine.Designer.cs">
       <DependentUpon>view_table_cell_staff_prisoner_combine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_visitors_history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_visitors_history.Designer.cs">
+      <DependentUpon>view_visitors_history.cs</DependentUpon>
     </Compile>
     <Compile Include="visitor_form.cs">
       <SubType>Form</SubType>
@@ -394,6 +412,9 @@
     <EmbeddedResource Include="cell_management.resx">
       <DependentUpon>cell_management.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="create_new_belonging.resx">
+      <DependentUpon>create_new_belonging.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="crime_input_page.resx">
       <DependentUpon>crime_input_page.cs</DependentUpon>
     </EmbeddedResource>
@@ -445,6 +466,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="register_fir.resx">
       <DependentUpon>register_fir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="schedule_visit.resx">
+      <DependentUpon>schedule_visit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="search_data_in_database.resx">
       <DependentUpon>search_data_in_database.cs</DependentUpon>

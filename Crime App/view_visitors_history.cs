@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Crime_App
 {
-    public partial class personalBelongingsManagementPortal : Form
+    public partial class view_visitors_history : Form
     {
-        public personalBelongingsManagementPortal()
+        public view_visitors_history()
         {
             InitializeComponent();
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            create_new_belonging g = new create_new_belonging();
-            g.Show();
         }
     }
 }
