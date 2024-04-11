@@ -37,14 +37,16 @@
             this.personalBelongings = new System.Windows.Forms.Panel();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.cell = new System.Windows.Forms.Panel();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.staff = new System.Windows.Forms.Panel();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.visitor = new System.Windows.Forms.Panel();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.prisoner = new System.Windows.Forms.Panel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
+            this.activityDepartment.SuspendLayout();
             this.doctor.SuspendLayout();
             this.personalBelongings.SuspendLayout();
             this.cell.SuspendLayout();
@@ -81,10 +83,12 @@
             // activityDepartment
             // 
             this.activityDepartment.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.activityDepartment.Controls.Add(this.richTextBox7);
             this.activityDepartment.Location = new System.Drawing.Point(183, 548);
             this.activityDepartment.Name = "activityDepartment";
             this.activityDepartment.Size = new System.Drawing.Size(200, 100);
             this.activityDepartment.TabIndex = 6;
+            this.activityDepartment.Paint += new System.Windows.Forms.PaintEventHandler(this.activityDepartment_Paint);
             // 
             // foodDepartment
             // 
@@ -138,6 +142,15 @@
             this.cell.Name = "cell";
             this.cell.Size = new System.Drawing.Size(200, 100);
             this.cell.TabIndex = 3;
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.Location = new System.Drawing.Point(25, 24);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.Size = new System.Drawing.Size(121, 40);
+            this.richTextBox6.TabIndex = 0;
+            this.richTextBox6.Text = "cell";
+            this.richTextBox6.TextChanged += new System.EventHandler(this.richTextBox6_TextChanged);
             // 
             // staff
             // 
@@ -193,14 +206,14 @@
             this.richTextBox1.Text = "prisoner";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
-            // richTextBox6
+            // richTextBox7
             // 
-            this.richTextBox6.Location = new System.Drawing.Point(25, 24);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(121, 40);
-            this.richTextBox6.TabIndex = 0;
-            this.richTextBox6.Text = "cell";
-            this.richTextBox6.TextChanged += new System.EventHandler(this.richTextBox6_TextChanged);
+            this.richTextBox7.Location = new System.Drawing.Point(16, 24);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(79, 49);
+            this.richTextBox7.TabIndex = 0;
+            this.richTextBox7.Text = "activity department]]";
+            this.richTextBox7.TextChanged += new System.EventHandler(this.richTextBox7_TextChanged);
             // 
             // prison_management_system_module
             // 
@@ -211,6 +224,7 @@
             this.Name = "prison_management_system_module";
             this.Text = "prison_management_system_module";
             this.panel1.ResumeLayout(false);
+            this.activityDepartment.ResumeLayout(false);
             this.doctor.ResumeLayout(false);
             this.personalBelongings.ResumeLayout(false);
             this.cell.ResumeLayout(false);
@@ -239,5 +253,6 @@
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.RichTextBox richTextBox5;
         private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.RichTextBox richTextBox7;
     }
 }

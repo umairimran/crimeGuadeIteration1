@@ -181,6 +181,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="activity_module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="activity_module.Designer.cs">
+      <DependentUpon>activity_module.cs</DependentUpon>
+    </Compile>
     <Compile Include="addPrisonerToCell.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +204,18 @@
     </Compile>
     <Compile Include="cell_management.Designer.cs">
       <DependentUpon>cell_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="create_medical_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="create_medical_report.Designer.cs">
+      <DependentUpon>create_medical_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="create_new_activity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="create_new_activity.Designer.cs">
+      <DependentUpon>create_new_activity.cs</DependentUpon>
     </Compile>
     <Compile Include="create_new_belonging.cs">
       <SubType>Form</SubType>
@@ -289,6 +307,12 @@
     <Compile Include="register_fir.Designer.cs">
       <DependentUpon>register_fir.cs</DependentUpon>
     </Compile>
+    <Compile Include="register_prisoner_to_activity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register_prisoner_to_activity.Designer.cs">
+      <DependentUpon>register_prisoner_to_activity.cs</DependentUpon>
+    </Compile>
     <Compile Include="schedule_visit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -312,6 +336,12 @@
     </Compile>
     <Compile Include="viewParticularCell.Designer.cs">
       <DependentUpon>viewParticularCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_activity_in_data_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_activity_in_data_view.Designer.cs">
+      <DependentUpon>view_activity_in_data_view.cs</DependentUpon>
     </Compile>
     <Compile Include="view_doctor_information.cs">
       <SubType>Form</SubType>
@@ -403,6 +433,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="activity_module.resx">
+      <DependentUpon>activity_module.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="addPrisonerToCell.resx">
       <DependentUpon>addPrisonerToCell.cs</DependentUpon>
     </EmbeddedResource>
@@ -411,6 +444,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="cell_management.resx">
       <DependentUpon>cell_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="create_medical_report.resx">
+      <DependentUpon>create_medical_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="create_new_activity.resx">
+      <DependentUpon>create_new_activity.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="create_new_belonging.resx">
       <DependentUpon>create_new_belonging.cs</DependentUpon>
@@ -467,6 +506,9 @@
     <EmbeddedResource Include="register_fir.resx">
       <DependentUpon>register_fir.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="register_prisoner_to_activity.resx">
+      <DependentUpon>register_prisoner_to_activity.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="schedule_visit.resx">
       <DependentUpon>schedule_visit.cs</DependentUpon>
     </EmbeddedResource>
@@ -479,6 +521,9 @@
     <EmbeddedResource Include="viewParticularCell.resx">
       <DependentUpon>viewParticularCell.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view_activity_in_data_view.resx">
+      <DependentUpon>view_activity_in_data_view.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view_doctor_information.resx">
       <DependentUpon>view_doctor_information.cs</DependentUpon>
     </EmbeddedResource>
@@ -490,6 +535,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view_table_cell_staff_prisoner_combine.resx">
       <DependentUpon>view_table_cell_staff_prisoner_combine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_visitors_history.resx">
+      <DependentUpon>view_visitors_history.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="visitor_form.resx">
       <DependentUpon>visitor_form.cs</DependentUpon>

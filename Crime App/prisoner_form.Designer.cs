@@ -85,6 +85,7 @@
             this.richTextBox6.Size = new System.Drawing.Size(142, 94);
             this.richTextBox6.TabIndex = 0;
             this.richTextBox6.Text = resources.GetString("richTextBox6.Text");
+            this.richTextBox6.TextChanged += new System.EventHandler(this.richTextBox6_TextChanged);
             // 
             // buyFromInventory
             // 

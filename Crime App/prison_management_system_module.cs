@@ -52,5 +52,17 @@ namespace Crime_App
             cell_management c = new cell_management();
             c.Show();
         }
+
+        private void activityDepartment_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void richTextBox7_TextChanged(object sender, EventArgs e)
+        {
+            activity_module m = new activity_module();
+            m.Show();
+
+        }
     }
 }

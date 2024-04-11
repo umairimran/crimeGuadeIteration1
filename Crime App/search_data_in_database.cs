@@ -62,11 +62,11 @@ namespace Crime_App
 
                     if (!string.IsNullOrEmpty(year))
                         whereClause += $" AND Year = '{year}'";
-
+                    
                    
                     if (!string.IsNullOrEmpty(selectedTime))
                         whereClause += $" AND [day/night] = '{selectedTime}'";
-
+                     
                     if (!string.IsNullOrEmpty(age_group))
                         whereClause += $" AND Age_Group = '{age_group}'";
 

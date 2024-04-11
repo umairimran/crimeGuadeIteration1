@@ -440,3 +440,9 @@ C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime App.csproj.Up2Date
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.create_new_belonging.resources
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.schedule_visit.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.view_visitors_history.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.activity_module.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.create_new_activity.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.register_prisoner_to_activity.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.view_activity_in_data_view.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.create_medical_report.resources

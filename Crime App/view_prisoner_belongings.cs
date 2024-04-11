@@ -48,7 +48,7 @@ namespace Crime_App
             selectCommand.Parameters.AddWithValue("@prisonerId", prisonerId); // Use the correct parameter name
 
             SQLiteDataReader reader = selectCommand.ExecuteReader();
-
+           
             // Return the reader, don't close the connection here to allow the caller to manage it
             return reader;
         }

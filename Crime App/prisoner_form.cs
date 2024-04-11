@@ -42,12 +42,19 @@ namespace Crime_App
 
         private void richTextBox4_TextChanged(object sender, EventArgs e)
         {
-           
+            register_prisoner_to_activity r = new register_prisoner_to_activity();
+            r.Show();
         }
 
         private void orderMeal_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void richTextBox6_TextChanged(object sender, EventArgs e)
+        {
+            create_medical_report c = new create_medical_report();
+            c.Show();
         }
     }
 }
