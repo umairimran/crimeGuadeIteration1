@@ -13,8 +13,15 @@ namespace Crime_App
 {
     public partial class view_table_cell_staff_prisoner_combine : Form
     {
+
         public view_table_cell_staff_prisoner_combine()
         {
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
             InitializeComponent();
             fillIdComboBox(selectCellid, "select cellid  as id from staff_cell");
             fillIdComboBox(selectPrisonerId, "select prisonerId as id from prisoners_cell");
@@ -127,6 +134,12 @@ namespace Crime_App
         private void selectPrisonerId_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            staff_management_module s = new staff_management_module();
+            s.Show();
         }
     }
 }

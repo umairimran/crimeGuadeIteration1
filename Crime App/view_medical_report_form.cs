@@ -15,7 +15,14 @@ namespace Crime_App
     public partial class view_medical_report_form : Form
     {
         public view_medical_report_form()
+
         {
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
             InitializeComponent();
             fillIdComboBox(selectPrisonerId,"select distinct prisonerId as id from medicalReport");
             fillIdComboBox(selectDoctorId, "select distinct doctorId as id from medicalReport");
@@ -141,7 +148,7 @@ namespace Crime_App
 
                 int prisoner_Id = Convert.ToInt32(selectPrisonerId.SelectedItem);
                 int doctor_Id = Convert.ToInt32(selectDoctorId.SelectedItem);
-                string query = "SELECT date, time, medicalHistory, disease, treatmentPlan, mentalcondition FROM medicalReport where  prisonerid = @prisonerId LIMIT 1";
+                string query = "SELECT  time, medicalHistory, disease, treatmentPlan, mentalcondition FROM medicalReport where  prisonerid = @prisonerId LIMIT 1";
 
                 using (SQLiteConnection connection = Db_Connection())
                 {
@@ -159,8 +166,8 @@ namespace Crime_App
                             {
 
                                 // Retrieve the data and process it
-                                date_r = reader1["date"].ToString();
-                                date_r = date_r.Substring(0, 8);
+                                
+                               
                                  time_r = reader1["time"].ToString();
                                
                                  medicalhistory_r = reader1["medicalHistory"].ToString();
@@ -179,7 +186,7 @@ namespace Crime_App
                 // Display retrieved information
                 prisonerName.AppendText(prisoner_Name);
                 doctorName.AppendText(doctor_name);
-                date.AppendText(date_r);
+                date.AppendText(time_r);
                 time.AppendText(time_r);
                 medicalHistory.AppendText(medicalhistory_r);
                 disease.AppendText(disease_r);
@@ -203,6 +210,37 @@ namespace Crime_App
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            prisoner_form f = new prisoner_form();
+            f.Show();
+        }
+
+        private void doctorId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void doctorName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox11_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void disease_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void view_medical_report_form_Load(object sender, EventArgs e)
         {
 
         }

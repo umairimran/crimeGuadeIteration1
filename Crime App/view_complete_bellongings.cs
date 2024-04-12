@@ -16,6 +16,12 @@ namespace Crime_App
         public view_complete_bellongings()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
             view_activity_in_data_view v = new view_activity_in_data_view();
             v.fillIdComboBox(selectBellongingId, "select belongingid as id from prisonerBelongings");
             v.fillIdComboBox(selectPrisonerId, "select prisonerid as id from prisonerbelongings");
@@ -110,6 +116,17 @@ namespace Crime_App
                 }
 
             }
+        }
+
+        private void view_complete_bellongings_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            personalBelongingsManagementPortal p = new personalBelongingsManagementPortal();
+            p.Show();
         }
     }
 }

@@ -16,6 +16,12 @@ namespace Crime_App
         public assign_cell_staff()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
             fillIdComboBox(cellId, "select cellid  as id from cell where  cellid not in(select cellid from staff_cell)");
             fillIdComboBox(staffId, "select staffId as id from Staff where staffid not in(select staffid from staff_cell ) ");
 
@@ -103,6 +109,23 @@ namespace Crime_App
             }
             MessageBox.Show("Staff Assigned successfully !!");
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            view_staff v = new view_staff();
+            v.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+             
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            cell_management c = new cell_management();
+            c.Show();
         }
     }
 }

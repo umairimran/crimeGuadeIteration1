@@ -17,6 +17,12 @@ namespace Crime_App
         {
             InitializeComponent();
             ClearAllBoxes();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
             fillIdComboBox(comboBox1, "select p_id as id from prisoners");
         }
         public void ClearAllBoxes()
@@ -78,7 +84,8 @@ namespace Crime_App
                     command.Parameters.AddWithValue("@description", itemDescription.Text);
                     command.Parameters.AddWithValue("@condition", selectItemCondition.Text);
                     command.Parameters.AddWithValue("@storageLocation", itemStorageLocation.Text);
-                    command.Parameters.AddWithValue("@dateAcquired", selectDateAcquired.Text);
+                    DateTime dateAcquired = selectDateAcquired.Value.Date;
+                    command.Parameters.AddWithValue("@dateAcquired", dateAcquired);
                     command.Parameters.AddWithValue("@status", selectItemStatus.Text);
                     command.Parameters.AddWithValue("@notes", itemNotes.Text);
 
@@ -111,6 +118,22 @@ namespace Crime_App
         private void create_new_belonging_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void selectDateAcquired_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            personalBelongingsManagementPortal p = new personalBelongingsManagementPortal();
+            p.Show();
         }
     }
 }

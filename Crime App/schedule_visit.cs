@@ -15,6 +15,11 @@ namespace Crime_App
     {
         public schedule_visit()
         {
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
             InitializeComponent();
             fillIdComboBox(selectPrisonerId, "select p_id as id from prisoners");
             fillIdComboBox(selectVisitorId, "select visitorId as id from visitor");
@@ -122,8 +127,10 @@ namespace Crime_App
                     command.Parameters.AddWithValue("@prisonerName", prisoner_name);
                     command.Parameters.AddWithValue("@visitorName", visitor_name);
                     command.Parameters.AddWithValue("@purposeOfVisit", purpose_of_visit);
-                    command.Parameters.AddWithValue("@entryTime", entery_date_time);
-                    command.Parameters.AddWithValue("@exitTime", exit_date_time);
+                    DateTime dateAcquired = entryDateTime.Value.Date;
+                    command.Parameters.AddWithValue("@entryTime", dateAcquired);
+                     dateAcquired = exitDateTime.Value.Date;
+                    command.Parameters.AddWithValue("@exitTime", dateAcquired);
                     command.Parameters.AddWithValue("@dateOfVisit", DateTime.Now.Date); // Assuming current date
                     command.Parameters.AddWithValue("@timeOfVisit", DateTime.Now.TimeOfDay); // Assuming current time
                     command.Parameters.AddWithValue("@durationOfVisit", duration_of_visit);
@@ -189,5 +196,15 @@ namespace Crime_App
             return visitor_name;
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            visitor_form f = new visitor_form();
+            f.Show();
+        }
+
+        private void richTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

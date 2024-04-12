@@ -16,6 +16,15 @@ namespace Crime_App
         public register_prisoner_to_activity()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None; this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
             fillIdComboBox(prisonerId,"select p_id as id from prisoners where p_id not in(select prisonerid from prisoner_activity_register)");
             fillIdComboBox(activityID, "select activityid  as id from  PrisonerActivity");
         }
@@ -55,47 +64,72 @@ namespace Crime_App
         private void button1_Click(object sender, EventArgs e)
         {
             // Retrieve selected prisoner and activity IDs
-            int prisoner_id = int.Parse(prisonerId.SelectedItem.ToString());
-            int activity_id = int.Parse(activityID.SelectedItem.ToString());
-
-            // Check if the record already exists
-            if (IsCellNumberExists(prisoner_id, activity_id))
+            if (prisonerId.SelectedItem == null || string.IsNullOrWhiteSpace(prisonerId.SelectedItem.ToString()))
             {
-                MessageBox.Show("Record Already Exists");
+                MessageBox.Show("Please select a valid prisoner ID.");
                 return;
             }
-
-            // If the record doesn't already exist, insert it
-            string connectionString = "Data Source=fir_db.db;Version=3;";
-
-            // SQL insert query
-            string sql = "INSERT INTO prisoner_activity_register (prisonerId, activityId) VALUES (@prisonerId, @activityId)";
-
-            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
-            using (SQLiteCommand command = new SQLiteCommand(sql, connection))
+            else if (activityID.SelectedItem == null || string.IsNullOrWhiteSpace(activityID.SelectedItem.ToString()))
             {
-                // Add parameters to the command
-                command.Parameters.AddWithValue("@prisonerId", prisoner_id);
-                command.Parameters.AddWithValue("@activityId", activity_id);
+                MessageBox.Show("Please select a valid activity ID.");
+                return;
+            }
+            else
+            {
+                int prisoner_id;
+                int activity_id;
 
-                try
+                if (int.TryParse(prisonerId.SelectedItem.ToString(), out prisoner_id) && int.TryParse(activityID.SelectedItem.ToString(), out activity_id))
                 {
-                    connection.Open();
-                    int rowsAffected = command.ExecuteNonQuery();
-                    if (rowsAffected > 0)
+                    // Both parsing successful, use prisoner_id and activity_id
+
+                    // Check if the record already exists
+                    if (IsCellNumberExists(prisoner_id, activity_id))
                     {
-                        MessageBox.Show("Record inserted successfully.");
+                        MessageBox.Show("Record Already Exists");
+                        return;
                     }
-                    else
+
+                    // If the record doesn't already exist, insert it
+                    string connectionString = "Data Source=fir_db.db;Version=3;";
+
+                    // SQL insert query
+                    string sql = "INSERT INTO prisoner_activity_register (prisonerId, activityId) VALUES (@prisonerId, @activityId)";
+
+                    using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+                    using (SQLiteCommand command = new SQLiteCommand(sql, connection))
                     {
-                        MessageBox.Show("Failed to insert record.");
+                        // Add parameters to the command
+                        command.Parameters.AddWithValue("@prisonerId", prisoner_id);
+                        command.Parameters.AddWithValue("@activityId", activity_id);
+
+                        try
+                        {
+                            connection.Open();
+                            int rowsAffected = command.ExecuteNonQuery();
+                            if (rowsAffected > 0)
+                            {
+                                MessageBox.Show("Record inserted successfully.");
+                            }
+                            else
+                            {
+                                MessageBox.Show("Failed to insert record.");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Error: " + ex.Message);
+                        }
                     }
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show("Error: " + ex.Message);
+                    // Parsing failed, handle the error
+                    MessageBox.Show("Invalid input. Please enter valid IDs.");
                 }
             }
+
+
         }
 
         // Function to check if a record with the given prisonerId and activityId already exists
@@ -123,5 +157,18 @@ namespace Crime_App
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            prisoner_form f = new prisoner_form();
+            f.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            view_activity_in_data_view v = new view_activity_in_data_view();
+            v.Show();
+;
+      }
     }
 }

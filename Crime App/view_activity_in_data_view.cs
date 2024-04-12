@@ -118,17 +118,37 @@ namespace Crime_App
                         {
                             DataTable table = new DataTable();
 
-
+                            table.Columns.Add("activityId", typeof(int));
                             table.Columns.Add("activityname", typeof(string));
                             table.Columns.Add("duration", typeof(string));
+                            table.Columns.Add("description", typeof(string));
+                            table.Columns.Add("location", typeof(string));
+                            table.Columns.Add("startTime", typeof(string));
+                            table.Columns.Add("endtime", typeof(string));
+                            table.Columns.Add("supervisor", typeof(string));
+                            table.Columns.Add("equipmentresources", typeof(string));
+                            table.Columns.Add("status", typeof(string));
+                            table.Columns.Add("notes", typeof(string));
 
                             while (reader.Read())
                             {
                                 string activityName = reader["activityName"].ToString();
                                 string duration = reader["duration"].ToString();
 
-                                table.Rows.Add(activityName, duration);
+                                // Provide default or empty values for other columns
+                                int activityId = Convert.ToInt32(reader["activityId"]); // Assuming activityId is an integer
+                                string description = reader["description"].ToString();
+                                string location = reader["location"].ToString();
+                                string startTime = reader["startTime"].ToString();
+                                string endTime = reader["endTime"].ToString();
+                                string supervisor = reader["supervisor"].ToString();
+                                string equipmentResources = reader["equipmentResources"].ToString();
+                                string status = reader["status"].ToString();
+                                string notes = reader["notes"].ToString();
+
+                                table.Rows.Add(activityId, activityName, duration, description, location, startTime, endTime, supervisor, equipmentResources, status, notes);
                             }
+
 
                             dataGridView1.DataSource = table;
                         }

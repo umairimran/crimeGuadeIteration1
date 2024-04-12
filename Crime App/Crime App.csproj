@@ -608,9 +608,19 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\d.png" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\download %285%291.png" />
+    <None Include="Resources\download %285%29.png" />
+    <None Include="Resources\download %284%29.png" />
+    <None Include="Resources\download %283%29.png" />
+    <None Include="Resources\download %282%29.png" />
+    <None Include="Resources\download %281%29.png" />
+    <None Include="Resources\images.jpg" />
     <None Include="Resources\download.png" />
     <Resource Include="cascade.xml" />
     <Resource Include="download.png" />
+    <Resource Include="images.jpg" />
     <Content Include="main.py" />
     <Content Include="Python.Runtime.dll" />
   </ItemGroup>

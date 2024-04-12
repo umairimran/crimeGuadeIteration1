@@ -17,6 +17,12 @@ namespace Crime_App
         public view_prisoner_belongings()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
             fillIdComboBox(selectPrisonerId, "select distinct prisonerId as id from prisonerBelongings");
         }
         public void fillIdComboBox(ComboBox c, string query)
@@ -94,7 +100,7 @@ namespace Crime_App
                 prisonerName.AppendText(prisonerNameValue);
             }
 
-            SQLiteDataReader reader2 = Db_Read("SELECT itemName, description, condition, storageLocation, dateAcquired, status, notes FROM prisonerBelongings WHERE prisonerid = @prisonerId", prisoner_Id);
+            SQLiteDataReader reader2 = Db_Read("SELECT itemName, description, condition, storageLocation, dateAcquired, status, notes FROM prisonerBelongings WHERE prisonerid = 2 ORDER BY belongingId DESC LIMIT 1", prisoner_Id);
 
             if (reader2 != null && reader2.HasRows)
             {
@@ -104,6 +110,7 @@ namespace Crime_App
                      item_name = reader2["itemName"].ToString();
                      item_description = reader2["description"].ToString();
                      storage_location = reader2["storageLocation"].ToString();
+                    
                      date_acquired = reader2["dateAcquired"].ToString();
                      item_status = reader2["status"].ToString();
                      item_notes = reader2["notes"].ToString();
@@ -122,6 +129,22 @@ namespace Crime_App
 
 
 
+        }
+
+        private void view_prisoner_belongings_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void itemName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            prisoner_form f = new prisoner_form();
+            f.Show();
         }
     }
 }

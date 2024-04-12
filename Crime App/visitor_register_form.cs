@@ -16,6 +16,11 @@ namespace Crime_App
     {
         public visitor_register_form()
         {
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
             InitializeComponent();
             ClearAllBoxes();
 
@@ -67,7 +72,8 @@ namespace Crime_App
                     // Add parameters and bind their values
                     command.Parameters.AddWithValue("@name", visitorName.Text);
                     command.Parameters.AddWithValue("@gender", selectGender.Text);
-                    command.Parameters.AddWithValue("@dateOfBirth", selectDob.Text);
+                    DateTime dateAcquired = selectDob.Value.Date;
+                    command.Parameters.AddWithValue("@dateOfBirth", dateAcquired);
                     command.Parameters.AddWithValue("@address", visitorAddress.Text);
                     command.Parameters.AddWithValue("@contactInformation", visitorContactInformation.Text);
                     command.Parameters.AddWithValue("@relationshipToInmate", visitorRelationship.Text);
@@ -90,6 +96,27 @@ namespace Crime_App
             string connectionString = "Data Source=fir_db.db;";
             SQLiteConnection connection = new SQLiteConnection(connectionString);
             return connection;
+        }
+
+        private void visitor_register_form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            visitor_form v = new visitor_form();
+            v.Show();
+        }
+
+        private void selectDob_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

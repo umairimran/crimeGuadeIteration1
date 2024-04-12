@@ -17,7 +17,11 @@ namespace Crime_App
         public  bool alreadyRecorded = false;
         public create_medical_report()
         {
-           
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
             InitializeComponent();
             addPrisonerToCell a= new addPrisonerToCell();
             a.fillIdComboBox(selectPrisonerId, "select p_id as id from prisoners ");
@@ -75,13 +79,13 @@ namespace Crime_App
         public void fillTheFields(int prisoner_id,int doctor_id)
         {
             
-            SQLiteDataReader reader2 = Db_Read("select medicalHistory,disease,treatmentPlan,mentalcondition,date from medicalReport where prisonerid=@prisoner_id and doctorid=@doctor_id",prisoner_id,doctor_id);
+            SQLiteDataReader reader2 = Db_Read("select medicalHistory,disease,treatmentPlan,mentalcondition,date,time from medicalReport where prisonerid=@prisoner_id and doctorid=@doctor_id",prisoner_id,doctor_id);
 
             if(reader2!=null && reader2.HasRows)
             {
                 while(reader2.Read())
                 {
-                    previousDateOfReport.Text = reader2["date"].ToString();
+                    previousDateOfReport.Text = reader2["time"].ToString();
                     previousMedicalHistory.Text = reader2["medicalHistory"].ToString();
                     priviousDisease.Text = reader2["disease"].ToString();
                     priviousTreatementPlan.Text = reader2["treatmentPlan"].ToString();

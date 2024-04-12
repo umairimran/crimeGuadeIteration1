@@ -16,6 +16,12 @@ namespace Crime_App
         public viewParticularCell()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
             fillIdComboBox(selectCellId, "select distinct cellid  as id from cell");
         }
         public SQLiteDataReader Db_Read(string query, int prisonerId)
@@ -69,6 +75,11 @@ namespace Crime_App
 
         private void button2_Click(object sender, EventArgs e)
         {
+            if (selectCellId.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a Cell ID.");
+                return;
+            }
             cellNumber.Clear();
             cellCapacity.Clear();
             cellOccupancy.Clear();
@@ -84,7 +95,8 @@ namespace Crime_App
             SQLiteDataReader reader = Db_Read("select cellNumber, capacity, occupancy, status, description, securityLevel, maintenanceNotes, lastInspectionDate, nextInspectionDate, cleanliness, accessibility  from cell where cellId = @prisonerId", cell_id);
             if (reader !=null && reader.Read())
             {
-                cellNumber.AppendText(reader["cellNumber"].ToString());
+                cellNumber.AppendText(cell_id.ToString());
+                cellNumber.Text = cell_id.ToString();
                 cellCapacity.AppendText(reader["capacity"].ToString());
                 cellOccupancy.AppendText(reader["occupancy"].ToString());
                 status.AppendText(reader["status"].ToString());
@@ -98,6 +110,27 @@ namespace Crime_App
 
 
             }
+        }
+
+        private void viewParticularCell_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            cell_management c = new cell_management();
+            c.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cellNumber_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
