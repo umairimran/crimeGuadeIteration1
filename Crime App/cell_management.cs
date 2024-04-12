@@ -15,6 +15,12 @@ namespace Crime_App
         public cell_management()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
         }
 
         private void richTextBox3_TextChanged(object sender, EventArgs e)
@@ -49,6 +55,49 @@ namespace Crime_App
             c.Show();
 
 
+        }
+
+        private void cell_management_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            assign_cell_staff s = new assign_cell_staff();
+            s.Show();
+            ;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            addPrisonerToCell c = new addPrisonerToCell();
+            c.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            newCell n = new newCell();
+            n.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            viewParticularCell v = new viewParticularCell();
+            v.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            view_table_cell_staff_prisoner_combine c = new view_table_cell_staff_prisoner_combine();
+            c.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            prison_management_system_module p = new prison_management_system_module();
+            p.Show();
         }
     }
 }

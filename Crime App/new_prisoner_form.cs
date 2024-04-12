@@ -19,9 +19,15 @@ namespace Crime_App
         {
             InitializeComponent();
             fillIdComboBox();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
 
         }
-       
+
         public  SQLiteConnection Db_Connection()
         {
            string  connectionString = "Data Source=fir_db.db;";
@@ -43,7 +49,7 @@ namespace Crime_App
         }
         public void fillIdComboBox() {
             List<int> distinctIDs = new List<int>();
-            SQLiteDataReader reader = Db_Read("Select distinct criminalId as id from criminals");
+            SQLiteDataReader reader = Db_Read("select criminalId   as id from criminals where criminalId not in (Select  p_id as id from prisoners)");
             while (reader.Read())
             {
                 int id = Convert.ToInt32(reader["id"]);
@@ -55,7 +61,7 @@ namespace Crime_App
                 selectPrisonId.Items.Add(id);
             }
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             string prisoner_id;
             string prisoner_name;
@@ -108,10 +114,26 @@ namespace Crime_App
             MessageBox.Show("Prisoner information inserted successfully.");
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
 
+        private void new_prisoner_form_Load(object sender, EventArgs e)
+        {
 
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            prisoner_form p = new prisoner_form();
+            p.Show()
+;        }
 
+        private void punishDuration_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

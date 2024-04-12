@@ -23,6 +23,7 @@ namespace Crime_App
             FormBorderStyle = FormBorderStyle.None;
 
         }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Dashboard d = new Dashboard();
@@ -162,6 +163,11 @@ namespace Crime_App
         }
 
         private void time_selection_box_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void crime_input_page_Load(object sender, EventArgs e)
         {
 
         }

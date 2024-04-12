@@ -28,161 +28,240 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.visitorProvideThings = new System.Windows.Forms.Panel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.viewMedicalReport = new System.Windows.Forms.Panel();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.scheduleVisit = new System.Windows.Forms.Panel();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.registerVisitor = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.visitor = new System.Windows.Forms.Panel();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pieChart1 = new LiveCharts.WinForms.PieChart();
+            this.visitor.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.visitorProvideThings.SuspendLayout();
-            this.viewMedicalReport.SuspendLayout();
-            this.scheduleVisit.SuspendLayout();
-            this.registerVisitor.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // visitor
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel1.Controls.Add(this.richTextBox5);
-            this.panel1.Controls.Add(this.visitorProvideThings);
-            this.panel1.Controls.Add(this.viewMedicalReport);
-            this.panel1.Controls.Add(this.scheduleVisit);
-            this.panel1.Controls.Add(this.registerVisitor);
-            this.panel1.Location = new System.Drawing.Point(2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1323, 659);
-            this.panel1.TabIndex = 0;
-            // 
-            // visitorProvideThings
-            // 
-            this.visitorProvideThings.BackColor = System.Drawing.Color.Crimson;
-            this.visitorProvideThings.Controls.Add(this.richTextBox1);
-            this.visitorProvideThings.Location = new System.Drawing.Point(333, 179);
-            this.visitorProvideThings.Name = "visitorProvideThings";
-            this.visitorProvideThings.Size = new System.Drawing.Size(256, 105);
-            this.visitorProvideThings.TabIndex = 2;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(35, 17);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(148, 61);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "visitor can submit the thinkgs for prisoner and that will be recorded in bellongi" +
-    "ngs";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged_1);
-            // 
-            // viewMedicalReport
-            // 
-            this.viewMedicalReport.BackColor = System.Drawing.Color.Crimson;
-            this.viewMedicalReport.Controls.Add(this.richTextBox3);
-            this.viewMedicalReport.Location = new System.Drawing.Point(333, 68);
-            this.viewMedicalReport.Name = "viewMedicalReport";
-            this.viewMedicalReport.Size = new System.Drawing.Size(256, 105);
-            this.viewMedicalReport.TabIndex = 2;
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.Location = new System.Drawing.Point(54, 22);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(148, 61);
-            this.richTextBox3.TabIndex = 1;
-            this.richTextBox3.Text = "visitor can view the medical report of the prisoner";
-            this.richTextBox3.TextChanged += new System.EventHandler(this.richTextBox3_TextChanged);
-            // 
-            // scheduleVisit
-            // 
-            this.scheduleVisit.BackColor = System.Drawing.Color.Crimson;
-            this.scheduleVisit.Controls.Add(this.richTextBox2);
-            this.scheduleVisit.Location = new System.Drawing.Point(71, 179);
-            this.scheduleVisit.Name = "scheduleVisit";
-            this.scheduleVisit.Size = new System.Drawing.Size(256, 105);
-            this.scheduleVisit.TabIndex = 1;
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.Location = new System.Drawing.Point(27, 17);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(148, 61);
-            this.richTextBox2.TabIndex = 1;
-            this.richTextBox2.Text = "visitor can schedule a visit based on the timings  of the prosiner and then it wi" +
-    "ll be entered in the scheduled table and after some time the table of session do" +
-    "ne will alsobe updated";
-            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
-            // 
-            // registerVisitor
-            // 
-            this.registerVisitor.BackColor = System.Drawing.Color.Crimson;
-            this.registerVisitor.Controls.Add(this.richTextBox4);
-            this.registerVisitor.Controls.Add(this.button1);
-            this.registerVisitor.Location = new System.Drawing.Point(71, 68);
-            this.registerVisitor.Name = "registerVisitor";
-            this.registerVisitor.Size = new System.Drawing.Size(256, 105);
-            this.registerVisitor.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(27, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(190, 32);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.Location = new System.Drawing.Point(46, 60);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(171, 23);
-            this.richTextBox4.TabIndex = 2;
-            this.richTextBox4.Text = "register new visitor";
-            this.richTextBox4.TextChanged += new System.EventHandler(this.richTextBox4_TextChanged);
+            this.visitor.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.visitor.Controls.Add(this.richTextBox5);
+            this.visitor.Controls.Add(this.button5);
+            this.visitor.Location = new System.Drawing.Point(618, 365);
+            this.visitor.Name = "visitor";
+            this.visitor.Size = new System.Drawing.Size(307, 267);
+            this.visitor.TabIndex = 3;
             // 
             // richTextBox5
             // 
-            this.richTextBox5.Location = new System.Drawing.Point(222, 290);
+            this.richTextBox5.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox5.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox5.ForeColor = System.Drawing.Color.White;
+            this.richTextBox5.Location = new System.Drawing.Point(46, 25);
             this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(148, 61);
-            this.richTextBox5.TabIndex = 2;
-            this.richTextBox5.Text = "visitor can view the  visit history";
-            this.richTextBox5.TextChanged += new System.EventHandler(this.richTextBox5_TextChanged);
+            this.richTextBox5.ReadOnly = true;
+            this.richTextBox5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox5.Size = new System.Drawing.Size(227, 44);
+            this.richTextBox5.TabIndex = 3;
+            this.richTextBox5.Text = "Register New Visitor";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Cornsilk;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.button5.Location = new System.Drawing.Point(3, 127);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(301, 137);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "Enter";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel1.Controls.Add(this.richTextBox4);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Location = new System.Drawing.Point(955, 365);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(307, 267);
+            this.panel1.TabIndex = 4;
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox4.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox4.ForeColor = System.Drawing.Color.White;
+            this.richTextBox4.Location = new System.Drawing.Point(46, 25);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
+            this.richTextBox4.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox4.Size = new System.Drawing.Size(227, 44);
+            this.richTextBox4.TabIndex = 3;
+            this.richTextBox4.Text = "View Medical Report";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Cornsilk;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.button1.Location = new System.Drawing.Point(3, 127);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(301, 137);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Enter";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel2.Controls.Add(this.richTextBox3);
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Location = new System.Drawing.Point(952, 37);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(307, 267);
+            this.panel2.TabIndex = 5;
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox3.ForeColor = System.Drawing.Color.White;
+            this.richTextBox3.Location = new System.Drawing.Point(81, 25);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox3.Size = new System.Drawing.Size(176, 44);
+            this.richTextBox3.TabIndex = 3;
+            this.richTextBox3.Text = "Schedule Visit";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Cornsilk;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.button2.Location = new System.Drawing.Point(3, 127);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(301, 137);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Enter";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel3.Controls.Add(this.richTextBox2);
+            this.panel3.Controls.Add(this.button3);
+            this.panel3.Location = new System.Drawing.Point(615, 37);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(307, 267);
+            this.panel3.TabIndex = 6;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.White;
+            this.richTextBox2.Location = new System.Drawing.Point(57, 25);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox2.Size = new System.Drawing.Size(197, 44);
+            this.richTextBox2.TabIndex = 3;
+            this.richTextBox2.Text = "Submit Belonging";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Cornsilk;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.button3.Location = new System.Drawing.Point(3, 127);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(301, 137);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Enter";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Crime_App.Properties.Resources.backwards;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pieChart1
+            // 
+            this.pieChart1.Location = new System.Drawing.Point(215, 37);
+            this.pieChart1.Name = "pieChart1";
+            this.pieChart1.Size = new System.Drawing.Size(321, 189);
+            this.pieChart1.TabIndex = 7;
+            this.pieChart1.Text = "pieChart1";
             // 
             // visitor_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1324, 661);
+            this.Controls.Add(this.pieChart1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.visitor);
             this.Name = "visitor_form";
             this.Text = "visitor_form";
+            this.Load += new System.EventHandler(this.visitor_form_Load);
+            this.visitor.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.visitorProvideThings.ResumeLayout(false);
-            this.viewMedicalReport.ResumeLayout(false);
-            this.scheduleVisit.ResumeLayout(false);
-            this.registerVisitor.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel viewMedicalReport;
-        private System.Windows.Forms.Panel scheduleVisit;
-        private System.Windows.Forms.Panel registerVisitor;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel visitorProvideThings;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Panel visitor;
         private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private LiveCharts.WinForms.PieChart pieChart1;
     }
 }

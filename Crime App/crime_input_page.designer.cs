@@ -393,6 +393,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "crime_input_page";
             this.Text = "crime_input_page";
+            this.Load += new System.EventHandler(this.crime_input_page_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

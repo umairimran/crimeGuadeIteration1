@@ -3,116 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\register_prisoner_to_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\register_prisoner_to_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\register_prisoner_to_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\register_prisoner_to_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\create_medical_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\create_medical_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_visitors_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_visitors_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\create_medical_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\create_medical_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_prisoner_belongings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_prisoner_belongings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\addprisonertocell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\addprisonertocell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\prison_management_system_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\prison_management_system_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\activity_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\activity_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_visitors_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_visitors_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\activity_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\activity_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\create_new_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\create_new_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\registernewdoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\registernewdoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\create_new_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\create_new_activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\registernewdoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\registernewdoctorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\register_fir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\register_fir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\prison_management_system_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\prison_management_system_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\visitor_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\visitor_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\new_prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\new_prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\visitor_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\visitor_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\new_prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\new_prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\doctor_management_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\doctor_management_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\doctor_management_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\doctor_management_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\personalbelongingsmanagementportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\personalbelongingsmanagementportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\personalbelongingsmanagementportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\personalbelongingsmanagementportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_doctor_information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_doctor_information.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\prison_management_system_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\prison_management_system_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_table_cell_staff_prisoner_combine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_table_cell_staff_prisoner_combine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\doctor_management_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\doctor_management_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_table_cell_staff_prisoner_combine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_table_cell_staff_prisoner_combine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\cell_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\cell_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\cell_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\cell_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\cell_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\cell_management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\activity_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\activity_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\activity_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\activity_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\visitor_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\visitor_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|c:\\users\\lenovo\\source\\repos\\crimeguadeiteration1\\crime app\\visitor_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\visitor_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_complete_bellongings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_complete_bellongings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_complete_bellongings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_complete_bellongings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\inventory_department_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\inventory_department_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\assign_cell_staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\assign_cell_staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_medical_report_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_medical_report_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\newcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,24 +107,8 @@
       "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\viewparticularcell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\prisoner_medical_checkup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\prisoner_medical_checkup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\view_prisoner_belongings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\view_prisoner_belongings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\new_prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\new_prisoner_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\crime_input_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\crime_input_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\crime_input_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|solutionrelative:crime app\\crime_input_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE84C676-7395-4518-841D-3844FA03A342}|Crime App\\Crime App.csproj|C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\crime app\\fir_module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -194,347 +154,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "create_medical_report.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\create_medical_report.cs",
-              "RelativeDocumentMoniker": "Crime App\\create_medical_report.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\create_medical_report.cs",
-              "RelativeToolTip": "Crime App\\create_medical_report.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAEwDgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T06:59:41.069Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "prisoner_form.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_form.cs",
-              "RelativeDocumentMoniker": "Crime App\\prisoner_form.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_form.cs",
-              "RelativeToolTip": "Crime App\\prisoner_form.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAuwDcAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T10:18:23.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "prisoner_form.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_form.cs",
-              "RelativeDocumentMoniker": "Crime App\\prisoner_form.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_form.cs [Design]",
-              "RelativeToolTip": "Crime App\\prisoner_form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T06:42:51.997Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "prison_management_system_module.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prison_management_system_module.cs",
               "RelativeDocumentMoniker": "Crime App\\prison_management_system_module.cs",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prison_management_system_module.cs [Design]",
               "RelativeToolTip": "Crime App\\prison_management_system_module.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T11:09:51.188Z",
+              "WhenOpened": "2024-04-11T19:23:56.174Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "activity_module.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\activity_module.cs",
-              "RelativeDocumentMoniker": "Crime App\\activity_module.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\activity_module.cs [Design]",
-              "RelativeToolTip": "Crime App\\activity_module.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T18:26:05.243Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "view_visitors_history.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_visitors_history.cs",
-              "RelativeDocumentMoniker": "Crime App\\view_visitors_history.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_visitors_history.cs [Design]",
-              "RelativeToolTip": "Crime App\\view_visitors_history.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T16:54:44.191Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "activity_module.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\activity_module.cs",
-              "RelativeDocumentMoniker": "Crime App\\activity_module.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\activity_module.cs",
-              "RelativeToolTip": "Crime App\\activity_module.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAjwCUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T01:24:14.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "registerNewDoctorForm.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\registerNewDoctorForm.cs",
-              "RelativeDocumentMoniker": "Crime App\\registerNewDoctorForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\registerNewDoctorForm.cs",
-              "RelativeToolTip": "Crime App\\registerNewDoctorForm.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAADMAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T01:36:52.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "registerNewDoctorForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\registerNewDoctorForm.cs",
-              "RelativeDocumentMoniker": "Crime App\\registerNewDoctorForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\registerNewDoctorForm.cs [Design]",
-              "RelativeToolTip": "Crime App\\registerNewDoctorForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T11:37:13.396Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "register_fir.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\register_fir.cs",
-              "RelativeDocumentMoniker": "Crime App\\register_fir.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\register_fir.cs",
-              "RelativeToolTip": "Crime App\\register_fir.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAWwAwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:19:55.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 3,
               "Title": "prison_management_system_module.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prison_management_system_module.cs",
               "RelativeDocumentMoniker": "Crime App\\prison_management_system_module.cs",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prison_management_system_module.cs",
               "RelativeToolTip": "Crime App\\prison_management_system_module.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAIwD4AAAAbAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T18:24:30.365Z",
+              "WhenOpened": "2024-04-11T19:26:53.333Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "visitor_form.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\visitor_form.cs",
-              "RelativeDocumentMoniker": "Crime App\\visitor_form.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\visitor_form.cs",
-              "RelativeToolTip": "Crime App\\visitor_form.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAgwDkAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "register_prisoner_to_activity.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\register_prisoner_to_activity.cs",
+              "RelativeDocumentMoniker": "Crime App\\register_prisoner_to_activity.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\register_prisoner_to_activity.cs [Design]",
+              "RelativeToolTip": "Crime App\\register_prisoner_to_activity.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T11:26:39.594Z",
+              "WhenOpened": "2024-04-12T03:56:17.885Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "prisoner_form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_form.cs",
+              "RelativeDocumentMoniker": "Crime App\\prisoner_form.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_form.cs [Design]",
+              "RelativeToolTip": "Crime App\\prisoner_form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:24:54.372Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "prisoner_form.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_form.cs",
+              "RelativeDocumentMoniker": "Crime App\\prisoner_form.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_form.cs",
+              "RelativeToolTip": "Crime App\\prisoner_form.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAhwE0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:24:59.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "visitor_form.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\visitor_form.cs",
-              "RelativeDocumentMoniker": "Crime App\\visitor_form.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\visitor_form.cs [Design]",
-              "RelativeToolTip": "Crime App\\visitor_form.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T11:25:56.355Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "personalBelongingsManagementPortal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\personalBelongingsManagementPortal.cs",
-              "RelativeDocumentMoniker": "Crime App\\personalBelongingsManagementPortal.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\personalBelongingsManagementPortal.cs [Design]",
-              "RelativeToolTip": "Crime App\\personalBelongingsManagementPortal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:43:29.768Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "view_doctor_information.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_doctor_information.cs",
-              "RelativeDocumentMoniker": "Crime App\\view_doctor_information.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_doctor_information.cs [Design]",
-              "RelativeToolTip": "Crime App\\view_doctor_information.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:56:29.366Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "view_table_cell_staff_prisoner_combine.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_table_cell_staff_prisoner_combine.cs",
-              "RelativeDocumentMoniker": "Crime App\\view_table_cell_staff_prisoner_combine.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_table_cell_staff_prisoner_combine.cs",
-              "RelativeToolTip": "Crime App\\view_table_cell_staff_prisoner_combine.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAA0wFQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:36:28.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "doctor_management_module.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\doctor_management_module.cs",
-              "RelativeDocumentMoniker": "Crime App\\doctor_management_module.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\doctor_management_module.cs [Design]",
-              "RelativeToolTip": "Crime App\\doctor_management_module.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:54:10.88Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "view_table_cell_staff_prisoner_combine.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_table_cell_staff_prisoner_combine.cs",
-              "RelativeDocumentMoniker": "Crime App\\view_table_cell_staff_prisoner_combine.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_table_cell_staff_prisoner_combine.cs [Design]",
-              "RelativeToolTip": "Crime App\\view_table_cell_staff_prisoner_combine.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:10:25.526Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "cell_management.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\cell_management.cs",
-              "RelativeDocumentMoniker": "Crime App\\cell_management.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\cell_management.cs [Design]",
-              "RelativeToolTip": "Crime App\\cell_management.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:27:56.591Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "cell_management.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\cell_management.cs",
-              "RelativeDocumentMoniker": "Crime App\\cell_management.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\cell_management.cs",
-              "RelativeToolTip": "Crime App\\cell_management.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAUwC8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T17:45:24.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "assign_cell_staff.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\assign_cell_staff.cs",
-              "RelativeDocumentMoniker": "Crime App\\assign_cell_staff.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\assign_cell_staff.cs [Design]",
-              "RelativeToolTip": "Crime App\\assign_cell_staff.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:18:28.892Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "newCell.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\newCell.cs",
-              "RelativeDocumentMoniker": "Crime App\\newCell.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\newCell.cs",
-              "RelativeToolTip": "Crime App\\newCell.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAuwH8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T07:18:18.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "addPrisonerToCell.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\addPrisonerToCell.cs",
-              "RelativeDocumentMoniker": "Crime App\\addPrisonerToCell.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\addPrisonerToCell.cs [Design]",
-              "RelativeToolTip": "Crime App\\addPrisonerToCell.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T18:09:44.722Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "newCell.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\newCell.cs",
-              "RelativeDocumentMoniker": "Crime App\\newCell.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\newCell.cs [Design]",
-              "RelativeToolTip": "Crime App\\newCell.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T17:46:06.066Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "viewParticularCell.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\viewParticularCell.cs",
-              "RelativeDocumentMoniker": "Crime App\\viewParticularCell.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\viewParticularCell.cs [Design]",
-              "RelativeToolTip": "Crime App\\viewParticularCell.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T18:14:54.104Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "prisoner_medical_checkup.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_medical_checkup.cs",
-              "RelativeDocumentMoniker": "Crime App\\prisoner_medical_checkup.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\prisoner_medical_checkup.cs",
-              "RelativeToolTip": "Crime App\\prisoner_medical_checkup.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:12:05.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "view_prisoner_belongings.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_prisoner_belongings.cs",
-              "RelativeDocumentMoniker": "Crime App\\view_prisoner_belongings.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_prisoner_belongings.cs [Design]",
-              "RelativeToolTip": "Crime App\\view_prisoner_belongings.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:12:19.333Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 4,
               "Title": "new_prisoner_form.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\new_prisoner_form.cs",
               "RelativeDocumentMoniker": "Crime App\\new_prisoner_form.cs",
@@ -546,32 +234,259 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "crime_input_page.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\crime_input_page.cs",
-              "RelativeDocumentMoniker": "Crime App\\crime_input_page.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\crime_input_page.cs",
-              "RelativeToolTip": "Crime App\\crime_input_page.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF4AAABMAAAA",
+              "DocumentIndex": 5,
+              "Title": "new_prisoner_form.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\new_prisoner_form.cs",
+              "RelativeDocumentMoniker": "Crime App\\new_prisoner_form.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\new_prisoner_form.cs",
+              "RelativeToolTip": "Crime App\\new_prisoner_form.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAApwDMAAACTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T11:04:03.345Z",
+              "WhenOpened": "2024-04-11T17:59:51.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "crime_input_page.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\crime_input_page.cs",
-              "RelativeDocumentMoniker": "Crime App\\crime_input_page.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\crime_input_page.cs [Design]",
-              "RelativeToolTip": "Crime App\\crime_input_page.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "doctor_management_module.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\doctor_management_module.cs",
+              "RelativeDocumentMoniker": "Crime App\\doctor_management_module.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\doctor_management_module.cs",
+              "RelativeToolTip": "Crime App\\doctor_management_module.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAIAwwE0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:00:05.29Z",
+              "WhenOpened": "2024-04-12T03:10:32.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "doctor_management_module.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\doctor_management_module.cs",
+              "RelativeDocumentMoniker": "Crime App\\doctor_management_module.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\doctor_management_module.cs [Design]",
+              "RelativeToolTip": "Crime App\\doctor_management_module.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:32:04.585Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 8,
+              "Title": "personalBelongingsManagementPortal.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\personalBelongingsManagementPortal.cs",
+              "RelativeDocumentMoniker": "Crime App\\personalBelongingsManagementPortal.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\personalBelongingsManagementPortal.cs",
+              "RelativeToolTip": "Crime App\\personalBelongingsManagementPortal.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:24:31.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "personalBelongingsManagementPortal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\personalBelongingsManagementPortal.cs",
+              "RelativeDocumentMoniker": "Crime App\\personalBelongingsManagementPortal.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\personalBelongingsManagementPortal.cs [Design]",
+              "RelativeToolTip": "Crime App\\personalBelongingsManagementPortal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:34:46.984Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "cell_management.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\cell_management.cs",
+              "RelativeDocumentMoniker": "Crime App\\cell_management.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\cell_management.cs [Design]",
+              "RelativeToolTip": "Crime App\\cell_management.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:58:43.399Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "cell_management.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\cell_management.cs",
+              "RelativeDocumentMoniker": "Crime App\\cell_management.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\cell_management.cs",
+              "RelativeToolTip": "Crime App\\cell_management.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAApwGEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:59:17.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "activity_module.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\activity_module.cs",
+              "RelativeDocumentMoniker": "Crime App\\activity_module.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\activity_module.cs",
+              "RelativeToolTip": "Crime App\\activity_module.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAApwEgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:49:07.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "activity_module.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\activity_module.cs",
+              "RelativeDocumentMoniker": "Crime App\\activity_module.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\activity_module.cs [Design]",
+              "RelativeToolTip": "Crime App\\activity_module.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:49:02.294Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "visitor_form.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\visitor_form.cs",
+              "RelativeDocumentMoniker": "Crime App\\visitor_form.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\visitor_form.cs",
+              "RelativeToolTip": "Crime App\\visitor_form.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAApwGAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:40:49.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "visitor_form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\visitor_form.cs",
+              "RelativeDocumentMoniker": "Crime App\\visitor_form.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\visitor_form.cs [Design]",
+              "RelativeToolTip": "Crime App\\visitor_form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:40:41.028Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "view_complete_bellongings.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_complete_bellongings.cs",
+              "RelativeDocumentMoniker": "Crime App\\view_complete_bellongings.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_complete_bellongings.cs [Design]",
+              "RelativeToolTip": "Crime App\\view_complete_bellongings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:37:09.87Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "view_complete_bellongings.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_complete_bellongings.cs",
+              "RelativeDocumentMoniker": "Crime App\\view_complete_bellongings.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_complete_bellongings.cs",
+              "RelativeToolTip": "Crime App\\view_complete_bellongings.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAADwv1EAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:57:25.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "inventory_department_module.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\inventory_department_module.cs",
+              "RelativeDocumentMoniker": "Crime App\\inventory_department_module.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\inventory_department_module.cs [Design]",
+              "RelativeToolTip": "Crime App\\inventory_department_module.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:27:47.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "view_medical_report_form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_medical_report_form.cs",
+              "RelativeDocumentMoniker": "Crime App\\view_medical_report_form.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_medical_report_form.cs [Design]",
+              "RelativeToolTip": "Crime App\\view_medical_report_form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T18:19:24.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "assign_cell_staff.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\assign_cell_staff.cs",
+              "RelativeDocumentMoniker": "Crime App\\assign_cell_staff.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\assign_cell_staff.cs [Design]",
+              "RelativeToolTip": "Crime App\\assign_cell_staff.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:18:28.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "newCell.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\newCell.cs",
+              "RelativeDocumentMoniker": "Crime App\\newCell.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\newCell.cs",
+              "RelativeToolTip": "Crime App\\newCell.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAuwH8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:18:18.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "addPrisonerToCell.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\addPrisonerToCell.cs",
+              "RelativeDocumentMoniker": "Crime App\\addPrisonerToCell.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\addPrisonerToCell.cs [Design]",
+              "RelativeToolTip": "Crime App\\addPrisonerToCell.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T18:09:44.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "newCell.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\newCell.cs",
+              "RelativeDocumentMoniker": "Crime App\\newCell.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\newCell.cs [Design]",
+              "RelativeToolTip": "Crime App\\newCell.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T17:46:06.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "viewParticularCell.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\viewParticularCell.cs",
+              "RelativeDocumentMoniker": "Crime App\\viewParticularCell.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\viewParticularCell.cs [Design]",
+              "RelativeToolTip": "Crime App\\viewParticularCell.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T18:14:54.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "view_prisoner_belongings.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_prisoner_belongings.cs",
+              "RelativeDocumentMoniker": "Crime App\\view_prisoner_belongings.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_prisoner_belongings.cs [Design]",
+              "RelativeToolTip": "Crime App\\view_prisoner_belongings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:12:19.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "fir_module.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\fir_module.cs",
               "RelativeDocumentMoniker": "Crime App\\fir_module.cs",
@@ -579,36 +494,33 @@
               "RelativeToolTip": "Crime App\\fir_module.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAApwCMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:00:04.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:00:04.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 28,
               "Title": "Login_Page.xaml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\Login_Page.xaml",
               "RelativeDocumentMoniker": "Crime App\\Login_Page.xaml",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\Login_Page.xaml",
               "RelativeToolTip": "Crime App\\Login_Page.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-06T17:00:05.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:00:05.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 29,
               "Title": "Mainwindow.xaml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\Mainwindow.xaml",
               "RelativeDocumentMoniker": "Crime App\\Mainwindow.xaml",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\Mainwindow.xaml",
               "RelativeToolTip": "Crime App\\Mainwindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-06T17:00:05.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:00:05.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 30,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\Form1.cs",
               "RelativeDocumentMoniker": "Crime App\\Form1.cs",
@@ -616,24 +528,22 @@
               "RelativeToolTip": "Crime App\\Form1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:00:05.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:00:05.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 31,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\Form1.cs",
               "RelativeDocumentMoniker": "Crime App\\Form1.cs",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\Form1.cs [Design]",
               "RelativeToolTip": "Crime App\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:00:05.333Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-06T17:00:05.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 32,
               "Title": "UserControl1.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\UserControl1.cs",
               "RelativeDocumentMoniker": "Crime App\\UserControl1.cs",
@@ -641,24 +551,22 @@
               "RelativeToolTip": "Crime App\\UserControl1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:00:05.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:00:05.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 33,
               "Title": "UserControl1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\UserControl1.cs",
               "RelativeDocumentMoniker": "Crime App\\UserControl1.cs",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\UserControl1.cs [Design]",
               "RelativeToolTip": "Crime App\\UserControl1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:00:05.341Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-06T17:00:05.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 34,
               "Title": "crime_trend_page.designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\crime_trend_page.designer.cs",
               "RelativeDocumentMoniker": "Crime App\\crime_trend_page.designer.cs",
@@ -666,12 +574,11 @@
               "RelativeToolTip": "Crime App\\crime_trend_page.designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:00:05.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T17:00:05.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 35,
               "Title": "crime_input_page.designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\crime_input_page.designer.cs",
               "RelativeDocumentMoniker": "Crime App\\crime_input_page.designer.cs",
@@ -681,158 +588,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T17:00:05.352Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e3183b4b-ec9b-4306-a754-2b3ff3d68078",
-        "Display": 0,
-        "X": 685,
-        "Y": 227,
-        "Width": 668,
-        "Height": 508,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "create_new_activity.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\create_new_activity.cs",
-              "RelativeDocumentMoniker": "Crime App\\create_new_activity.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\create_new_activity.cs [Design]",
-              "RelativeToolTip": "Crime App\\create_new_activity.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T01:25:10.448Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "addPrisonerToCell.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\addPrisonerToCell.cs",
-              "RelativeDocumentMoniker": "Crime App\\addPrisonerToCell.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\addPrisonerToCell.cs",
-              "RelativeToolTip": "Crime App\\addPrisonerToCell.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAAB8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T06:50:00.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "register_prisoner_to_activity.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\register_prisoner_to_activity.cs",
-              "RelativeDocumentMoniker": "Crime App\\register_prisoner_to_activity.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\register_prisoner_to_activity.cs",
-              "RelativeToolTip": "Crime App\\register_prisoner_to_activity.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAMwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T02:14:16.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "create_new_activity.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\create_new_activity.cs",
-              "RelativeDocumentMoniker": "Crime App\\create_new_activity.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\create_new_activity.cs",
-              "RelativeToolTip": "Crime App\\create_new_activity.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAAAEMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T01:36:55.324Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "c4d29d6f-1b76-4ef2-87c8-e8deec8c5ad3",
-        "Display": 0,
-        "X": 175,
-        "Y": 249,
-        "Width": 898,
-        "Height": 519,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "view_visitors_history.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_visitors_history.cs",
-              "RelativeDocumentMoniker": "Crime App\\view_visitors_history.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_visitors_history.cs",
-              "RelativeToolTip": "Crime App\\view_visitors_history.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAAAJMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T17:12:04.009Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "cb801a8d-3a2a-4ba0-a609-486848fd61de",
-        "Display": 0,
-        "X": 495,
-        "Y": 123,
-        "Width": 649,
-        "Height": 497,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "view_prisoner_belongings.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_prisoner_belongings.cs",
-              "RelativeDocumentMoniker": "Crime App\\view_prisoner_belongings.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\view_prisoner_belongings.cs",
-              "RelativeToolTip": "Crime App\\view_prisoner_belongings.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAAADIAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:12:21.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "create_medical_report.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\create_medical_report.cs",
-              "RelativeDocumentMoniker": "Crime App\\create_medical_report.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\crimeGuadeIteration1\\Crime App\\create_medical_report.cs [Design]",
-              "RelativeToolTip": "Crime App\\create_medical_report.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T06:56:31.426Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

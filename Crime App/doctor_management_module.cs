@@ -15,6 +15,12 @@ namespace Crime_App
         public doctor_management_module()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+
         }
 
         private void registerNewDoctor_TextChanged(object sender, EventArgs e)
@@ -40,6 +46,42 @@ namespace Crime_App
             view_doctor_information d = new view_doctor_information();
             d.Show();
 
+        }
+
+        private void doctor_management_module_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            registerNewDoctorForm d = new registerNewDoctorForm();
+            d.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            view_medical_report_form v = new view_medical_report_form();
+            v.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            doctor_reports_database_view v = new doctor_reports_database_view();
+            v.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            view_doctor_information d = new view_doctor_information();
+            d.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            prison_management_system_module m = new prison_management_system_module();
+            m.Show();
         }
     }
 }

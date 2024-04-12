@@ -223,6 +223,12 @@
     <Compile Include="create_new_belonging.Designer.cs">
       <DependentUpon>create_new_belonging.cs</DependentUpon>
     </Compile>
+    <Compile Include="create_new_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="create_new_staff.Designer.cs">
+      <DependentUpon>create_new_staff.cs</DependentUpon>
+    </Compile>
     <Compile Include="crime_trend_page.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -258,6 +264,12 @@
     </Compile>
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventory_department_module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventory_department_module.Designer.cs">
+      <DependentUpon>inventory_department_module.cs</DependentUpon>
     </Compile>
     <Compile Include="newCell.cs">
       <SubType>Form</SubType>
@@ -325,6 +337,12 @@
     <Compile Include="search_data_in_database.designer.cs">
       <DependentUpon>search_data_in_database.cs</DependentUpon>
     </Compile>
+    <Compile Include="staff_management_module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staff_management_module.Designer.cs">
+      <DependentUpon>staff_management_module.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -343,6 +361,12 @@
     <Compile Include="view_activity_in_data_view.Designer.cs">
       <DependentUpon>view_activity_in_data_view.cs</DependentUpon>
     </Compile>
+    <Compile Include="view_complete_bellongings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_complete_bellongings.Designer.cs">
+      <DependentUpon>view_complete_bellongings.cs</DependentUpon>
+    </Compile>
     <Compile Include="view_doctor_information.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -360,6 +384,12 @@
     </Compile>
     <Compile Include="view_prisoner_belongings.Designer.cs">
       <DependentUpon>view_prisoner_belongings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_staff.Designer.cs">
+      <DependentUpon>view_staff.cs</DependentUpon>
     </Compile>
     <Compile Include="view_table_cell_staff_prisoner_combine.cs">
       <SubType>Form</SubType>
@@ -454,6 +484,9 @@
     <EmbeddedResource Include="create_new_belonging.resx">
       <DependentUpon>create_new_belonging.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="create_new_staff.resx">
+      <DependentUpon>create_new_staff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="crime_input_page.resx">
       <DependentUpon>crime_input_page.cs</DependentUpon>
     </EmbeddedResource>
@@ -515,6 +548,9 @@
     <EmbeddedResource Include="search_data_in_database.resx">
       <DependentUpon>search_data_in_database.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="staff_management_module.resx">
+      <DependentUpon>staff_management_module.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
@@ -524,6 +560,9 @@
     <EmbeddedResource Include="view_activity_in_data_view.resx">
       <DependentUpon>view_activity_in_data_view.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="view_complete_bellongings.resx">
+      <DependentUpon>view_complete_bellongings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="view_doctor_information.resx">
       <DependentUpon>view_doctor_information.cs</DependentUpon>
     </EmbeddedResource>
@@ -532,6 +571,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view_prisoner_belongings.resx">
       <DependentUpon>view_prisoner_belongings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_staff.resx">
+      <DependentUpon>view_staff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view_table_cell_staff_prisoner_combine.resx">
       <DependentUpon>view_table_cell_staff_prisoner_combine.cs</DependentUpon>
@@ -566,7 +608,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\download.png" />
     <Resource Include="cascade.xml" />
+    <Resource Include="download.png" />
     <Content Include="main.py" />
     <Content Include="Python.Runtime.dll" />
   </ItemGroup>

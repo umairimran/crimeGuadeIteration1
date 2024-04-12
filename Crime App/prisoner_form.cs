@@ -15,6 +15,11 @@ namespace Crime_App
         public prisoner_form()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -55,6 +60,47 @@ namespace Crime_App
         {
             create_medical_report c = new create_medical_report();
             c.Show();
+        }
+
+        private void prisoner_form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            new_prisoner_form n = new new_prisoner_form();
+            n.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            register_prisoner_to_activity r = new register_prisoner_to_activity();
+            r.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            view_prisoner_belongings p = new view_prisoner_belongings();
+            p.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            create_medical_report c = new create_medical_report();
+            c.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            view_medical_report_form f = new view_medical_report_form();
+            f.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            prison_management_system_module m = new prison_management_system_module();
+            m.Show();
         }
     }
 }
