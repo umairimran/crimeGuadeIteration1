@@ -265,7 +265,8 @@ namespace Crime_App
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            prison_management_system_module n = new prison_management_system_module();
+            n.Show();
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -277,6 +278,12 @@ namespace Crime_App
         private void chart1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            geoMap g = new geoMap();
+            g.Show();
         }
     }
 }

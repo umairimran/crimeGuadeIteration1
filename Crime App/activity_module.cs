@@ -20,6 +20,10 @@ namespace Crime_App
             // Set the location to the desired position
             this.Location = new Point(20, 30);
             FormBorderStyle = FormBorderStyle.None;
+            prison_management_system_module m = new prison_management_system_module();
+            m.load_pie_chart("location", "select  location, count(*) as count from Activity group by location", location);
+            m.load_pie_chart("duration", "select  duration, count(*) as count from Activity group by duration", duration);
+            m.load_pie_chart("activityId", "select  activityId, count(*) as count from prisoner_activity_register group by activityId", prisoner);
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)

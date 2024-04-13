@@ -97,6 +97,7 @@
             this.richTextBox3.ForeColor = System.Drawing.Color.White;
             this.richTextBox3.Location = new System.Drawing.Point(277, 12);
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(598, 68);
             this.richTextBox3.TabIndex = 5;
             this.richTextBox3.Text = "Assign Staff To Cell";

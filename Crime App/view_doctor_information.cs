@@ -16,6 +16,11 @@ namespace Crime_App
         public view_doctor_information()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
             fillIdComboBox(selectDoctorId, "select id from doctor");
         }
         public void fillIdComboBox(ComboBox c, string query)
@@ -117,6 +122,17 @@ namespace Crime_App
             {
                 MessageBox.Show("Select Again!!!!");
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            doctor_management_module d = new doctor_management_module();
+            d.Show();
+        }
+
+        private void doctorLanguage_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

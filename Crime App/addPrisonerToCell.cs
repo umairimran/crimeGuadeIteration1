@@ -18,7 +18,11 @@ namespace Crime_App
             InitializeComponent();
             fillIdComboBox(selectCellId, "SELECT cellid as id FROM cell WHERE occupancy <  (SELECT capacity FROM cell) ");
             fillIdComboBox(selectPrisonerId, "select p_id as id from prisoners   where id not in (select prisonerid from prisoners_cell) ");
+            this.StartPosition = FormStartPosition.Manual;
 
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
         }
         public SQLiteDataReader Db_Read(string query)
         {
@@ -76,8 +80,22 @@ namespace Crime_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int cell_number = int.Parse(selectCellId.SelectedItem.ToString());
-            int prisoner_id = int.Parse(selectPrisonerId.SelectedItem.ToString());
+            int cell_number;
+            int prisoner_id;
+
+            if (int.TryParse(selectCellId.SelectedItem?.ToString(), out cell_number) &&
+                int.TryParse(selectPrisonerId.SelectedItem?.ToString(), out prisoner_id))
+            {
+                // Parsing succeeded, 'cell_number' and 'prisoner_id' now contain the parsed integer values
+            }
+            else
+            {
+                // Parsing failed, 'cell_number' and/or 'prisoner_id' will be 0
+                // Display an error message to the user or handle the error appropriately
+                MessageBox.Show("Please select valid integer values for the cell number and prisoner ID.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
 
             if (IsCellNumberExists(cell_number,prisoner_id))
             {
@@ -112,6 +130,17 @@ namespace Crime_App
                 }
             }
             MessageBox.Show("Prisoner Assigned successfully and occupancy updated successfullly!!");
+        }
+
+        private void addPrisonerToCell_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            cell_management c = new cell_management();
+            c.Show();
         }
     }
 }

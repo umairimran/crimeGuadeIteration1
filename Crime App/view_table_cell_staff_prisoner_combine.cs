@@ -138,8 +138,13 @@ namespace Crime_App
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            staff_management_module s = new staff_management_module();
+            cell_management s = new cell_management();
             s.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

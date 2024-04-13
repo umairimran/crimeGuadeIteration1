@@ -75,7 +75,7 @@
             this.notes.ForeColor = System.Drawing.Color.Blue;
             this.notes.Location = new System.Drawing.Point(732, 180);
             this.notes.Name = "notes";
-            this.notes.Size = new System.Drawing.Size(134, 34);
+            this.notes.Size = new System.Drawing.Size(390, 34);
             this.notes.TabIndex = 17;
             this.notes.Text = "";
             // 
@@ -86,7 +86,7 @@
             this.status.ForeColor = System.Drawing.Color.Blue;
             this.status.Location = new System.Drawing.Point(732, 117);
             this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(134, 34);
+            this.status.Size = new System.Drawing.Size(390, 34);
             this.status.TabIndex = 15;
             this.status.Text = "";
             // 
@@ -132,7 +132,7 @@
             this.desctiption.ForeColor = System.Drawing.Color.Blue;
             this.desctiption.Location = new System.Drawing.Point(283, 300);
             this.desctiption.Name = "desctiption";
-            this.desctiption.Size = new System.Drawing.Size(225, 34);
+            this.desctiption.Size = new System.Drawing.Size(352, 34);
             this.desctiption.TabIndex = 7;
             this.desctiption.Text = "";
             // 
@@ -192,6 +192,7 @@
             this.richTextBox3.ForeColor = System.Drawing.Color.White;
             this.richTextBox3.Location = new System.Drawing.Point(302, 12);
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(520, 50);
             this.richTextBox3.TabIndex = 20;
             this.richTextBox3.Text = "View Personal Belongings";

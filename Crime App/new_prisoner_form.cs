@@ -73,11 +73,19 @@ namespace Crime_App
 
             prisoner_id = selectPrisonId.Text;
             prisoner_name = enterName.Text;
-            prisoner_dob = selectDateOfBirth.Text;
+            prisoner_dob = selectPrisonerDob.Text;
             prisoner_meetTime = selectMeetTime.Text;
             prisoner_gender = selectGender.Text;
             prisoner_admitDate = selectAdmitDate.Text;
-            prisoner_duration = punishDuration.Text;
+            string punishDurationText = punishDuration.Text;
+            int duration;
+
+            if (!int.TryParse(punishDurationText, out duration))
+            {
+                // Show a message to the user indicating that the input is not an integer
+                MessageBox.Show("Please enter a valid integer for the punishment duration.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
             // Check if any of the fields are empty
             if (string.IsNullOrEmpty(prisoner_id) ||
@@ -86,7 +94,7 @@ namespace Crime_App
                 string.IsNullOrEmpty(prisoner_meetTime) ||
                 string.IsNullOrEmpty(prisoner_gender) ||
                 string.IsNullOrEmpty(prisoner_admitDate) ||
-                string.IsNullOrEmpty(prisoner_duration))
+                string.IsNullOrEmpty(duration.ToString()))
             {
                 MessageBox.Show("Please fill in all fields.");
                 return; // Exit the button function
@@ -101,11 +109,14 @@ namespace Crime_App
                 {
                     command.Parameters.AddWithValue("@pid", prisoner_id);
                     command.Parameters.AddWithValue("@name", prisoner_name);
-                    command.Parameters.AddWithValue("@dob", prisoner_dob);
+                    DateTime dateAcquired = selectPrisonerDob.Value.Date;
+                    command.Parameters.AddWithValue("@dob", dateAcquired);
                     command.Parameters.AddWithValue("@gender", prisoner_gender);
                     command.Parameters.AddWithValue("@meetTime", prisoner_meetTime);
-                    command.Parameters.AddWithValue("@admitDate", prisoner_admitDate);
-                    command.Parameters.AddWithValue("@prisonDuration", prisoner_duration);
+                    dateAcquired = selectAdmitDate.Value.Date;
+                    command.Parameters.AddWithValue("@admitDate", dateAcquired);
+                     
+                    command.Parameters.AddWithValue("@prisonDuration", duration);
                     command.ExecuteNonQuery();
                 }
             }

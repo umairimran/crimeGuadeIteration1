@@ -148,7 +148,7 @@ namespace Crime_App
 
                 int prisoner_Id = Convert.ToInt32(selectPrisonerId.SelectedItem);
                 int doctor_Id = Convert.ToInt32(selectDoctorId.SelectedItem);
-                string query = "SELECT  time, medicalHistory, disease, treatmentPlan, mentalcondition FROM medicalReport where  prisonerid = @prisonerId LIMIT 1";
+                string query = "SELECT  time, medicalHistory, disease, treatmentPlan, mentalcondition FROM medicalReport where  prisonerid = @prisonerId order by reportid LIMIT 1";
 
                 using (SQLiteConnection connection = Db_Connection())
                 {

@@ -15,7 +15,13 @@ namespace Crime_App
     {
         public create_new_staff()
         {
+      
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
         }
 
         private void richTextBox3_TextChanged(object sender, EventArgs e)
@@ -44,7 +50,8 @@ namespace Crime_App
                 {
                     command.Parameters.AddWithValue("@name", name);
                     command.Parameters.AddWithValue("@gender", gender);
-                    command.Parameters.AddWithValue("@dob", dob);
+                    DateTime dateAcquired = staffDob.Value.Date;
+                    command.Parameters.AddWithValue("@dob", dateAcquired);
                     command.Parameters.AddWithValue("@phoneNumber", phoneNumber);
                     command.Parameters.AddWithValue("@email", email);
                     command.Parameters.AddWithValue("@address", address);
@@ -52,7 +59,8 @@ namespace Crime_App
                     command.Parameters.AddWithValue("@department", department);
                     command.Parameters.AddWithValue("@shiftSchedule", shiftSchedule);
                     command.Parameters.AddWithValue("@salary", salary);
-                    command.Parameters.AddWithValue("@dateOfHire", dateOfHire);
+                     dateAcquired = staffDateOfHire.Value.Date;
+                    command.Parameters.AddWithValue("@dateOfHire", dateAcquired);
                     command.Parameters.AddWithValue("@trainingCertifications", trainingCertifications);
                     command.Parameters.AddWithValue("@emergencyContact", emergencyContact);
                     command.Parameters.AddWithValue("@accessRights", accessRights);
@@ -113,5 +121,20 @@ namespace Crime_App
             );
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            staff_management_module S = new staff_management_module();
+            S.Show();
+        }
+
+        private void staffPosition_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void staffPosition_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

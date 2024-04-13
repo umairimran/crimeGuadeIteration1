@@ -20,6 +20,12 @@ namespace Crime_App
             // Set the location to the desired position
             this.Location = new Point(20, 30);
             FormBorderStyle = FormBorderStyle.None;
+            prison_management_system_module m = new prison_management_system_module();
+            m.load_pie_chart("specialization", "select  specialization, count(*) as count f" +
+                "rom doctor group by specialization", specilization);
+            m.load_pie_chart("gender", "select  gender, count(*) as count from doctor group by gender", gender);
+            m.load_pie_chart("language", "select  language, count(*) as count from doctor group by language", language);
+
 
         }
 
@@ -82,6 +88,11 @@ namespace Crime_App
             this.Close();
             prison_management_system_module m = new prison_management_system_module();
             m.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

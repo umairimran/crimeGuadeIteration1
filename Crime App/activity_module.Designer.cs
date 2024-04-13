@@ -38,6 +38,12 @@
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.location = new LiveCharts.WinForms.PieChart();
+            this.prisoner = new LiveCharts.WinForms.PieChart();
+            this.duration = new LiveCharts.WinForms.PieChart();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.staff.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -172,12 +178,84 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // location
+            // 
+            this.location.Location = new System.Drawing.Point(383, 66);
+            this.location.Name = "location";
+            this.location.Size = new System.Drawing.Size(489, 255);
+            this.location.TabIndex = 6;
+            this.location.Text = "pieChart1";
+            // 
+            // prisoner
+            // 
+            this.prisoner.Location = new System.Drawing.Point(907, 123);
+            this.prisoner.Name = "prisoner";
+            this.prisoner.Size = new System.Drawing.Size(405, 320);
+            this.prisoner.TabIndex = 7;
+            this.prisoner.Text = "pieChart2";
+            // 
+            // duration
+            // 
+            this.duration.Location = new System.Drawing.Point(661, 449);
+            this.duration.Name = "duration";
+            this.duration.Size = new System.Drawing.Size(301, 200);
+            this.duration.TabIndex = 8;
+            this.duration.Text = "pieChart3";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.White;
+            this.richTextBox2.Location = new System.Drawing.Point(710, 411);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox2.Size = new System.Drawing.Size(162, 32);
+            this.richTextBox2.TabIndex = 3;
+            this.richTextBox2.Text = "By Duration";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox3.ForeColor = System.Drawing.Color.White;
+            this.richTextBox3.Location = new System.Drawing.Point(532, 28);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox3.Size = new System.Drawing.Size(162, 32);
+            this.richTextBox3.TabIndex = 9;
+            this.richTextBox3.Text = "By Location";
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox5.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox5.ForeColor = System.Drawing.Color.White;
+            this.richTextBox5.Location = new System.Drawing.Point(1004, 66);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
+            this.richTextBox5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox5.Size = new System.Drawing.Size(162, 32);
+            this.richTextBox5.TabIndex = 10;
+            this.richTextBox5.Text = "By Prisoner Count";
+            // 
             // activity_module
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1324, 661);
+            this.Controls.Add(this.richTextBox5);
+            this.Controls.Add(this.richTextBox3);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.duration);
+            this.Controls.Add(this.prisoner);
+            this.Controls.Add(this.location);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -204,5 +282,11 @@
         private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private LiveCharts.WinForms.PieChart location;
+        private LiveCharts.WinForms.PieChart prisoner;
+        private LiveCharts.WinForms.PieChart duration;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox5;
     }
 }

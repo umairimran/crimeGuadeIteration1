@@ -15,6 +15,11 @@ namespace Crime_App
     {
         public view_staff()
         {
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
             InitializeComponent();
             view_activity_in_data_view v = new view_activity_in_data_view();
             v.fillIdComboBox2(staffPosition, "select DISTINCT position as id from staff");
@@ -102,6 +107,12 @@ namespace Crime_App
             }
         }
 
-        } 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            staff_management_module s = new staff_management_module();
+            s.Show();
+        }
     }
 }

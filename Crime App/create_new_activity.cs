@@ -69,7 +69,8 @@ private void button1_Click(object sender, EventArgs e)
             command.Parameters.AddWithValue("@activityName", activity_name);
             command.Parameters.AddWithValue("@description", activity_description);
             command.Parameters.AddWithValue("@location", activity_location);
-            command.Parameters.AddWithValue("@date", activity_date);
+                DateTime dateAcquired = activityDate.Value.Date;
+                command.Parameters.AddWithValue("@date", dateAcquired);
             command.Parameters.AddWithValue("@startTime", activity_start_time);
             command.Parameters.AddWithValue("@endTime", activity_end_time);
             command.Parameters.AddWithValue("@duration", duration);
@@ -101,5 +102,10 @@ private void button1_Click(object sender, EventArgs e)
         }
     }
 
-}
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            activity_module m = new activity_module();
+            m.Show();
+        }
+    }
 }

@@ -31,7 +31,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cell = new System.Windows.Forms.Panel();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.button7 = new System.Windows.Forms.Button();
             this.activityDepartment = new System.Windows.Forms.Panel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.doctor = new System.Windows.Forms.Panel();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
@@ -48,9 +51,9 @@
             this.prisoner = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cell.SuspendLayout();
@@ -60,11 +63,16 @@
             this.staff.SuspendLayout();
             this.visitor.SuspendLayout();
             this.prisoner.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.richTextBox7);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.cell);
             this.panel1.Controls.Add(this.activityDepartment);
@@ -101,6 +109,35 @@
             this.cell.Size = new System.Drawing.Size(307, 267);
             this.cell.TabIndex = 3;
             // 
+            // richTextBox6
+            // 
+            this.richTextBox6.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.richTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox6.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox6.ForeColor = System.Drawing.Color.White;
+            this.richTextBox6.Location = new System.Drawing.Point(69, 17);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
+            this.richTextBox6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox6.Size = new System.Drawing.Size(180, 32);
+            this.richTextBox6.TabIndex = 5;
+            this.richTextBox6.Text = "Cell Department";
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Cornsilk;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.button7.Location = new System.Drawing.Point(3, 127);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(301, 137);
+            this.button7.TabIndex = 5;
+            this.button7.Text = "Enter";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // activityDepartment
             // 
             this.activityDepartment.BackColor = System.Drawing.SystemColors.WindowFrame;
@@ -111,6 +148,20 @@
             this.activityDepartment.Size = new System.Drawing.Size(307, 267);
             this.activityDepartment.TabIndex = 6;
             this.activityDepartment.Paint += new System.Windows.Forms.PaintEventHandler(this.activityDepartment_Paint);
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.White;
+            this.richTextBox2.Location = new System.Drawing.Point(48, 17);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox2.Size = new System.Drawing.Size(220, 32);
+            this.richTextBox2.TabIndex = 4;
+            this.richTextBox2.Text = "Activity Department";
             // 
             // button6
             // 
@@ -326,48 +377,38 @@
             this.richTextBox1.Text = "Prisoner Center";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
-            // richTextBox2
+            // richTextBox7
             // 
-            this.richTextBox2.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.ForeColor = System.Drawing.Color.White;
-            this.richTextBox2.Location = new System.Drawing.Point(48, 17);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox2.Size = new System.Drawing.Size(220, 32);
-            this.richTextBox2.TabIndex = 4;
-            this.richTextBox2.Text = "Activity Department";
+            this.richTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox7.Font = new System.Drawing.Font("Arial Black", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox7.ForeColor = System.Drawing.Color.White;
+            this.richTextBox7.Location = new System.Drawing.Point(351, 7);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
+            this.richTextBox7.Size = new System.Drawing.Size(762, 69);
+            this.richTextBox7.TabIndex = 8;
+            this.richTextBox7.Text = "Prison Management System";
             // 
-            // button7
+            // pictureBox2
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Cornsilk;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.button7.Location = new System.Drawing.Point(3, 127);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(301, 137);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "Enter";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.pictureBox2.Image = global::Crime_App.Properties.Resources.download__5_;
+            this.pictureBox2.Location = new System.Drawing.Point(231, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(114, 59);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
             // 
-            // richTextBox6
+            // pictureBox3
             // 
-            this.richTextBox6.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.richTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox6.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox6.ForeColor = System.Drawing.Color.White;
-            this.richTextBox6.Location = new System.Drawing.Point(69, 17);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.ReadOnly = true;
-            this.richTextBox6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox6.Size = new System.Drawing.Size(180, 32);
-            this.richTextBox6.TabIndex = 5;
-            this.richTextBox6.Text = "Cell Department";
+            this.pictureBox3.Image = global::Crime_App.Properties.Resources.download__4_;
+            this.pictureBox3.Location = new System.Drawing.Point(1119, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(114, 59);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
             // 
             // prison_management_system_module
             // 
@@ -387,6 +428,8 @@
             this.staff.ResumeLayout(false);
             this.visitor.ResumeLayout(false);
             this.prisoner.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -416,5 +459,8 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.RichTextBox richTextBox7;
     }
 }

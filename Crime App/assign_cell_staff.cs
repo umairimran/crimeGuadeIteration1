@@ -82,8 +82,21 @@ namespace Crime_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int cell_number = int.Parse(cellId.SelectedItem.ToString());
-            int staff_number = int.Parse(staffId.SelectedItem.ToString());
+            int cell_number;
+            int staff_number;
+
+            if (int.TryParse(cellId.SelectedItem?.ToString(), out cell_number) &&
+                int.TryParse(staffId.SelectedItem?.ToString(), out staff_number))
+            {
+                // Parsing succeeded, 'cell_number' and 'staff_number' now contain the parsed integer values
+            }
+            else
+            {
+                // Parsing failed, 'cell_number' and/or 'staff_number' will be 0
+                // Display an error message to the user or handle the error appropriately
+                MessageBox.Show("Please select valid integer values for the cell and staff IDs.", "Invalid Input");
+                return;
+            }
             if (IsCellNumberExists(cell_number, staff_number))
             {
                 MessageBox.Show("Cell number already exists. Please enter a different cell number.");

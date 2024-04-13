@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LiveCharts.Wpf;
+using LiveCharts;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,11 +9,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media;
+using System.Data.SQLite;
 
 namespace Crime_App
 {
     public partial class prison_management_system_module : Form
     {
+
         public prison_management_system_module()
         {
             InitializeComponent();
@@ -21,7 +26,85 @@ namespace Crime_App
             this.Location = new Point(20, 30);
             FormBorderStyle = FormBorderStyle.None;
         }
+        private Dictionary<string, int> GetCountsFromDataBase(string word,string query)
+        {
+            Dictionary<string, int> counts = new Dictionary<string, int>();
 
+            // Establish connection to the SQLite database
+            string connectionString = "Data Source=fir_db.db;Version=3;";
+            using (SQLiteConnection connection = new SQLiteConnection(connectionString))
+            {
+                // Open the connection
+                connection.Open();
+
+                // Construct the SQL query dynamically based on the value of word and filter
+                
+
+
+                // Create a command to execute SQL query
+                using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                {
+                    // Execute the command and read the results
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string key = reader[word] != DBNull.Value ? reader[word].ToString() : "NULL";
+                            int count = Convert.ToInt32(reader["count"]);
+                            counts.Add(key, count);
+                        }
+                    }
+                }
+            }
+
+            return counts;
+        }
+
+        public void load_pie_chart(string word, string query, LiveCharts.WinForms.PieChart chart)
+        {
+            Dictionary<string, int> weaponCounts = GetCountsFromDataBase(word,query);
+
+            // Define a color palette for the slices
+            List<System.Windows.Media.Color> colors = new List<System.Windows.Media.Color>
+             {
+
+            System.Windows.Media.Color.FromRgb(0, 122, 204),   // Blue
+           System.Windows.Media.Color.FromRgb(0, 158, 115),   // Green
+           System.Windows.Media. Color.FromRgb(255, 127, 14),  // Orange
+         System.Windows.Media.   Color.FromRgb(255, 0, 0),     // Red
+           System.Windows.Media. Color.FromRgb(128, 0, 128)    // Purple
+        // Add more colors as needed
+             };
+
+            // Create a series collection for the pie chart
+            LiveCharts.SeriesCollection series = new LiveCharts.SeriesCollection();
+
+            // Add pie series for each weapon count
+            int colorIndex = 0;
+            foreach (var kvp in weaponCounts)
+            {
+                // Create a pie series for the current weapon
+                PieSeries pieSeries = new PieSeries
+                {
+                    Title = kvp.Key,
+                    Values = new ChartValues<int> { kvp.Value },
+                    DataLabels = true,
+                    Fill = new SolidColorBrush(colors[colorIndex % colors.Count]), // Set slice color
+                    LabelPoint = chartPoint => string.Format("{0} ({1})", chartPoint.SeriesView.Title, chartPoint.Y) // Custom label format
+                };
+
+                series.Add(pieSeries);
+
+                colorIndex++;
+            }
+
+            // Configure the pie chart
+            chart.Series = series;
+            chart.DefaultLegend.FontFamily = new System.Windows.Media.FontFamily("Segoe UI"); // Set legend font
+            chart.DefaultLegend.FontSize = 12; // Set legend font size
+            
+
+        }
         private void prisoner_Paint(object sender, PaintEventArgs e)
         {
 
@@ -135,10 +218,32 @@ namespace Crime_App
         {
 
         }
+     
 
-        private void richTextBox4_TextChanged_1(object sender, EventArgs e)
+        public void design(RichTextBox box, ComboBox cBox,string textBoxText,string comboBoxText)
+    {
+        // Set text properties
+        box.Text = textBoxText;
+        box.Font = new Font("Arial Black", 36, FontStyle.Bold);
+        box.BackColor = System.Drawing.Color.FromArgb(67, 67, 67); // Dark gray
+        box.ForeColor = System.Drawing.Color.White;
+        box.BorderStyle = BorderStyle.None;
+        box.ReadOnly = true;
+        box.Size = new Size(237, 40);
+
+        // Set ComboBox properties
+        cBox.Text = comboBoxText;
+        cBox.Font = new Font("Arial Black", 36, FontStyle.Bold);
+        cBox.BackColor = System.Drawing.Color.FromArgb(67, 67, 67); // Dark gray
+        cBox.ForeColor = System.Drawing.Color.White;
+        cBox.DropDownStyle = ComboBoxStyle.DropDownList;
+        cBox.Size = new Size(237, 40);
+    }
+
+    private void richTextBox4_TextChanged_1(object sender, EventArgs e)
         {
 
         }
+
     }
 }

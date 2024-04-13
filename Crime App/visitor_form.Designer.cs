@@ -41,7 +41,12 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pieChart1 = new LiveCharts.WinForms.PieChart();
+            this.gender = new LiveCharts.WinForms.PieChart();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.identification = new LiveCharts.WinForms.PieChart();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.relationship = new LiveCharts.WinForms.PieChart();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.visitor.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -216,13 +221,71 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pieChart1
+            // gender
             // 
-            this.pieChart1.Location = new System.Drawing.Point(215, 37);
-            this.pieChart1.Name = "pieChart1";
-            this.pieChart1.Size = new System.Drawing.Size(321, 189);
-            this.pieChart1.TabIndex = 7;
-            this.pieChart1.Text = "pieChart1";
+            this.gender.Location = new System.Drawing.Point(12, 68);
+            this.gender.Name = "gender";
+            this.gender.Size = new System.Drawing.Size(321, 189);
+            this.gender.TabIndex = 7;
+            this.gender.Text = "pieChart1";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.Color.White;
+            this.richTextBox1.Location = new System.Drawing.Point(232, 28);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox1.Size = new System.Drawing.Size(137, 44);
+            this.richTextBox1.TabIndex = 4;
+            this.richTextBox1.Text = "By Gender";
+            // 
+            // identification
+            // 
+            this.identification.Location = new System.Drawing.Point(282, 202);
+            this.identification.Name = "identification";
+            this.identification.Size = new System.Drawing.Size(315, 182);
+            this.identification.TabIndex = 8;
+            this.identification.Text = "pieChart1";
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox6.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox6.ForeColor = System.Drawing.Color.White;
+            this.richTextBox6.Location = new System.Drawing.Point(413, 152);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
+            this.richTextBox6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox6.Size = new System.Drawing.Size(184, 44);
+            this.richTextBox6.TabIndex = 9;
+            this.richTextBox6.Text = "By Identification";
+            // 
+            // relationship
+            // 
+            this.relationship.Location = new System.Drawing.Point(12, 390);
+            this.relationship.Name = "relationship";
+            this.relationship.Size = new System.Drawing.Size(357, 259);
+            this.relationship.TabIndex = 10;
+            this.relationship.Text = "pieChart2";
+            // 
+            // richTextBox7
+            // 
+            this.richTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox7.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox7.ForeColor = System.Drawing.Color.White;
+            this.richTextBox7.Location = new System.Drawing.Point(325, 415);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
+            this.richTextBox7.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox7.Size = new System.Drawing.Size(187, 60);
+            this.richTextBox7.TabIndex = 11;
+            this.richTextBox7.Text = "By Relationahip to prisoner";
             // 
             // visitor_form
             // 
@@ -230,7 +293,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1324, 661);
-            this.Controls.Add(this.pieChart1);
+            this.Controls.Add(this.richTextBox7);
+            this.Controls.Add(this.relationship);
+            this.Controls.Add(this.richTextBox6);
+            this.Controls.Add(this.identification);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.gender);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -262,6 +330,11 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private LiveCharts.WinForms.PieChart pieChart1;
+        private LiveCharts.WinForms.PieChart gender;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private LiveCharts.WinForms.PieChart identification;
+        private System.Windows.Forms.RichTextBox richTextBox6;
+        private LiveCharts.WinForms.PieChart relationship;
+        private System.Windows.Forms.RichTextBox richTextBox7;
     }
 }

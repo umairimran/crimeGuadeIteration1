@@ -44,6 +44,12 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.securityLevel = new LiveCharts.WinForms.PieChart();
+            this.capacity = new LiveCharts.WinForms.PieChart();
+            this.cleanliness = new LiveCharts.WinForms.PieChart();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
             this.staff.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -258,12 +264,84 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // securityLevel
+            // 
+            this.securityLevel.Location = new System.Drawing.Point(669, 381);
+            this.securityLevel.Name = "securityLevel";
+            this.securityLevel.Size = new System.Drawing.Size(375, 265);
+            this.securityLevel.TabIndex = 7;
+            this.securityLevel.Text = "pieChart1";
+            // 
+            // capacity
+            // 
+            this.capacity.Location = new System.Drawing.Point(1023, 79);
+            this.capacity.Name = "capacity";
+            this.capacity.Size = new System.Drawing.Size(289, 160);
+            this.capacity.TabIndex = 8;
+            this.capacity.Text = "pieChart2";
+            // 
+            // cleanliness
+            // 
+            this.cleanliness.Location = new System.Drawing.Point(1023, 262);
+            this.cleanliness.Name = "cleanliness";
+            this.cleanliness.Size = new System.Drawing.Size(289, 160);
+            this.cleanliness.TabIndex = 9;
+            this.cleanliness.Text = "pieChart3";
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox5.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox5.ForeColor = System.Drawing.Color.White;
+            this.richTextBox5.Location = new System.Drawing.Point(1023, 11);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
+            this.richTextBox5.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox5.Size = new System.Drawing.Size(208, 62);
+            this.richTextBox5.TabIndex = 3;
+            this.richTextBox5.Text = "By Capacity";
+            // 
+            // richTextBox6
+            // 
+            this.richTextBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox6.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox6.ForeColor = System.Drawing.Color.White;
+            this.richTextBox6.Location = new System.Drawing.Point(1104, 428);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
+            this.richTextBox6.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox6.Size = new System.Drawing.Size(208, 62);
+            this.richTextBox6.TabIndex = 10;
+            this.richTextBox6.Text = "By Cleanliness";
+            // 
+            // richTextBox7
+            // 
+            this.richTextBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.richTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox7.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox7.ForeColor = System.Drawing.Color.White;
+            this.richTextBox7.Location = new System.Drawing.Point(992, 584);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
+            this.richTextBox7.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.richTextBox7.Size = new System.Drawing.Size(208, 62);
+            this.richTextBox7.TabIndex = 11;
+            this.richTextBox7.Text = "By Security Level";
+            // 
             // cell_management
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1324, 661);
+            this.Controls.Add(this.richTextBox7);
+            this.Controls.Add(this.richTextBox6);
+            this.Controls.Add(this.richTextBox5);
+            this.Controls.Add(this.cleanliness);
+            this.Controls.Add(this.capacity);
+            this.Controls.Add(this.securityLevel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
@@ -300,5 +378,11 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private LiveCharts.WinForms.PieChart securityLevel;
+        private LiveCharts.WinForms.PieChart capacity;
+        private LiveCharts.WinForms.PieChart cleanliness;
+        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.RichTextBox richTextBox7;
     }
 }

@@ -20,6 +20,10 @@ namespace Crime_App
             // Set the location to the desired position
             this.Location = new Point(20, 30);
             FormBorderStyle = FormBorderStyle.None;
+            prison_management_system_module m = new prison_management_system_module();
+            m.load_pie_chart("capacity", "select  capacity, count(*) as count from cell group by capacity", capacity);
+            m.load_pie_chart("securityLevel", "select  securityLevel, count(*) as count from cell group by securityLevel", securityLevel);
+            m.load_pie_chart("cleanliness", "select  cleanliness, count(*) as count from cell group by cleanliness", cleanliness);
 
         }
 

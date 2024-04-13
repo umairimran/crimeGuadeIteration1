@@ -83,6 +83,16 @@ namespace Crime_App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap doctor {
+            get {
+                object obj = ResourceManager.GetObject("doctor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
@@ -146,6 +156,16 @@ namespace Crime_App.Properties {
         internal static System.Drawing.Bitmap download__5_1 {
             get {
                 object obj = ResourceManager.GetObject("download (5)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__6_ {
+            get {
+                object obj = ResourceManager.GetObject("download (6)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

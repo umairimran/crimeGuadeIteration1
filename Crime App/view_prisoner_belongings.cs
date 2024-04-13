@@ -71,7 +71,18 @@ namespace Crime_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int prisoner_Id = Convert.ToInt32(selectPrisonerId.SelectedItem);
+            int prisoner_Id;
+            if (selectPrisonerId.SelectedItem == null)
+            {
+                // Show a message to the user indicating that no prisoner ID is selected
+                MessageBox.Show("Please select a prisoner ID.", "No Prisoner ID Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else
+            {
+                 prisoner_Id= Convert.ToInt32(selectPrisonerId.SelectedItem);
+                // Proceed with the selected prisoner ID 'prisoner_Id'
+            }
             string prisoner_name = "";
             string item_name = "";
             string item_description = "";
@@ -100,7 +111,7 @@ namespace Crime_App
                 prisonerName.AppendText(prisonerNameValue);
             }
 
-            SQLiteDataReader reader2 = Db_Read("SELECT itemName, description, condition, storageLocation, dateAcquired, status, notes FROM prisonerBelongings WHERE prisonerid = 2 ORDER BY belongingId DESC LIMIT 1", prisoner_Id);
+            SQLiteDataReader reader2 = Db_Read("SELECT itemName, description, condition, storageLocation, dateAcquired, status, notes FROM prisonerBelongings WHERE prisonerid = @prisonerId ORDER BY belongingId DESC LIMIT 1", prisoner_Id);
 
             if (reader2 != null && reader2.HasRows)
             {

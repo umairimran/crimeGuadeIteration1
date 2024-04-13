@@ -16,6 +16,11 @@ namespace Crime_App
         public view_activity_in_data_view()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
             fillIdComboBox(activityId, "select activityId as id  from prisoner_activity_register");
             fillIdComboBox2(activityName, " select distinct activityName  as id from Activity");
             fillIdComboBox(activityDuration, "select distinct duration  as id from activity ");
@@ -190,5 +195,11 @@ namespace Crime_App
 
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            activity_module a = new activity_module();
+            a.Show();
+;        }
     }
 }

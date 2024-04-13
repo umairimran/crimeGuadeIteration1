@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Deedle.Internal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Documents;
+using System.Windows;
 using System.Windows.Forms;
 
 namespace Crime_App
@@ -22,7 +25,13 @@ namespace Crime_App
             fillIdComboBox2(selectVisitorName, "select distinct visitorName  as id from visitor_history");
             fillIdComboBox2(selectPurposeOfVisit, "select  DISTINCT purposeOfVisit as id from visitor_history");
             fillIdComboBox2(selectDurationOfVisit, "select  DISTINCT durationOfVisit as id from visitor_history");
-                }
+            prison_management_system_module m = new prison_management_system_module();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new System.Drawing.Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
+        }
 
         private void view_visitors_history_Load(object sender, EventArgs e)
         {
@@ -43,7 +52,7 @@ namespace Crime_App
             SQLiteDataReader reader = n.Db_Read(query);
             while (reader.Read())
             {
-                int id = Convert.ToInt32(reader["id"]);
+                int id = System.Convert.ToInt32(reader["id"]);
                 distinctIDs.Add(id);
 
             }
@@ -158,10 +167,41 @@ namespace Crime_App
                 catch (Exception ex)
                 {
                     // Log or display the exception
-                    MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    System.Windows.Forms.MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
             }
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            staff_management_module s = new staff_management_module();
+            s.Show();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void selectPurposeOfVisit_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void selectDurationOfVisit_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox6_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

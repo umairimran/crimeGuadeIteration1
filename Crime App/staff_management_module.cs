@@ -20,6 +20,9 @@ namespace Crime_App
             // Set the location to the desired position
             this.Location = new Point(20, 30);
             FormBorderStyle = FormBorderStyle.None;
+            prison_management_system_module m = new prison_management_system_module();
+            m.load_pie_chart("durationOfVisit", "SELECT durationOfVisit, COUNT(*) AS count FROM visitor_history GROUP BY durationOfVisit", pieChart1);
+            m.load_pie_chart("trainingCertifications", "select trainingCertifications, count(*) as count from  staff group by trainingCertifications", pieChart2);
         }
 
         private void richTextBox7_TextChanged(object sender, EventArgs e)
@@ -86,6 +89,11 @@ namespace Crime_App
             this.Close();
             prison_management_system_module m = new prison_management_system_module();
             m.Show();
+        }
+
+        private void pieChart1_ChildChanged(object sender, System.Windows.Forms.Integration.ChildChangedEventArgs e)
+        {
+
         }
     }
 }

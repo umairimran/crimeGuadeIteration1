@@ -172,7 +172,8 @@ namespace Crime_App
                 // Add parameters to the command
                 command.Parameters.AddWithValue("@doctorId", doctorId);
                 command.Parameters.AddWithValue("@prisonerId", prisonerId);
-                command.Parameters.AddWithValue("@date", date);
+                DateTime dateAcquired = currentDate.Value.Date;
+                command.Parameters.AddWithValue("@date", dateAcquired);
 
                 command.Parameters.AddWithValue("@medicalHistory", medicalHistory);
                 command.Parameters.AddWithValue("@disease", disease);
@@ -217,7 +218,8 @@ namespace Crime_App
             {
                 command.Parameters.AddWithValue("@doctorId", doctorId);
                 command.Parameters.AddWithValue("@prisonerId", prisonerId);
-                command.Parameters.AddWithValue("@date", date);
+                DateTime dateAcquired = currentDate.Value.Date;
+                command.Parameters.AddWithValue("@date", dateAcquired);
 
                 command.Parameters.AddWithValue("@medicalHistory", medicalHistory);
                 command.Parameters.AddWithValue("@disease", disease);
@@ -249,6 +251,12 @@ namespace Crime_App
         private void richTextBox9_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            prisoner_form f = new prisoner_form();
+            f.Show();
         }
     }
 }

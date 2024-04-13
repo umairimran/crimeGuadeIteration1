@@ -450,3 +450,6 @@ C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.staff_management_module.resources
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.view_staff.resources
 C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.view_complete_bellongings.resources
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\GMap.NET.Core.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\LENOVO\source\repos\crimeGuadeIteration1\Crime App\obj\Debug\Crime_App.geoMap.resources

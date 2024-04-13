@@ -82,7 +82,7 @@
             this.selectPrisonerId.FormattingEnabled = true;
             this.selectPrisonerId.Location = new System.Drawing.Point(232, 113);
             this.selectPrisonerId.Name = "selectPrisonerId";
-            this.selectPrisonerId.Size = new System.Drawing.Size(195, 35);
+            this.selectPrisonerId.Size = new System.Drawing.Size(500, 35);
             this.selectPrisonerId.TabIndex = 11;
             // 
             // button1
@@ -91,7 +91,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 229);
+            this.button1.Location = new System.Drawing.Point(232, 231);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(415, 42);
             this.button1.TabIndex = 12;
@@ -105,7 +105,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(523, 471);
+            this.button2.Location = new System.Drawing.Point(788, 505);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(403, 82);
             this.button2.TabIndex = 13;
@@ -120,7 +120,7 @@
             this.selectDoctorId.FormattingEnabled = true;
             this.selectDoctorId.Location = new System.Drawing.Point(232, 174);
             this.selectDoctorId.Name = "selectDoctorId";
-            this.selectDoctorId.Size = new System.Drawing.Size(195, 35);
+            this.selectDoctorId.Size = new System.Drawing.Size(500, 35);
             this.selectDoctorId.TabIndex = 14;
             // 
             // previousDateOfReport
@@ -130,7 +130,7 @@
             this.previousDateOfReport.ForeColor = System.Drawing.Color.Blue;
             this.previousDateOfReport.Location = new System.Drawing.Point(232, 303);
             this.previousDateOfReport.Name = "previousDateOfReport";
-            this.previousDateOfReport.Size = new System.Drawing.Size(285, 40);
+            this.previousDateOfReport.Size = new System.Drawing.Size(500, 40);
             this.previousDateOfReport.TabIndex = 15;
             this.previousDateOfReport.Text = "";
             // 
@@ -141,7 +141,7 @@
             this.previousMedicalHistory.ForeColor = System.Drawing.Color.Blue;
             this.previousMedicalHistory.Location = new System.Drawing.Point(232, 371);
             this.previousMedicalHistory.Name = "previousMedicalHistory";
-            this.previousMedicalHistory.Size = new System.Drawing.Size(285, 44);
+            this.previousMedicalHistory.Size = new System.Drawing.Size(500, 44);
             this.previousMedicalHistory.TabIndex = 16;
             this.previousMedicalHistory.Text = "";
             // 
@@ -152,7 +152,7 @@
             this.priviousTreatementPlan.ForeColor = System.Drawing.Color.Blue;
             this.priviousTreatementPlan.Location = new System.Drawing.Point(232, 533);
             this.priviousTreatementPlan.Name = "priviousTreatementPlan";
-            this.priviousTreatementPlan.Size = new System.Drawing.Size(195, 44);
+            this.priviousTreatementPlan.Size = new System.Drawing.Size(500, 44);
             this.priviousTreatementPlan.TabIndex = 18;
             this.priviousTreatementPlan.Text = "";
             // 
@@ -163,7 +163,7 @@
             this.priviousDisease.ForeColor = System.Drawing.Color.Blue;
             this.priviousDisease.Location = new System.Drawing.Point(232, 452);
             this.priviousDisease.Name = "priviousDisease";
-            this.priviousDisease.Size = new System.Drawing.Size(195, 51);
+            this.priviousDisease.Size = new System.Drawing.Size(500, 51);
             this.priviousDisease.TabIndex = 19;
             this.priviousDisease.Text = "";
             // 
@@ -174,7 +174,7 @@
             this.priviousMentalCondition.ForeColor = System.Drawing.Color.Blue;
             this.priviousMentalCondition.Location = new System.Drawing.Point(232, 601);
             this.priviousMentalCondition.Name = "priviousMentalCondition";
-            this.priviousMentalCondition.Size = new System.Drawing.Size(195, 51);
+            this.priviousMentalCondition.Size = new System.Drawing.Size(500, 51);
             this.priviousMentalCondition.TabIndex = 21;
             this.priviousMentalCondition.Text = "";
             // 
@@ -183,9 +183,9 @@
             this.currentMentalCondition.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.currentMentalCondition.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentMentalCondition.ForeColor = System.Drawing.Color.Blue;
-            this.currentMentalCondition.Location = new System.Drawing.Point(724, 385);
+            this.currentMentalCondition.Location = new System.Drawing.Point(989, 390);
             this.currentMentalCondition.Name = "currentMentalCondition";
-            this.currentMentalCondition.Size = new System.Drawing.Size(202, 54);
+            this.currentMentalCondition.Size = new System.Drawing.Size(321, 54);
             this.currentMentalCondition.TabIndex = 27;
             this.currentMentalCondition.Text = "";
             // 
@@ -194,9 +194,9 @@
             this.currentTreatmentPlan.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.currentTreatmentPlan.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentTreatmentPlan.ForeColor = System.Drawing.Color.Blue;
-            this.currentTreatmentPlan.Location = new System.Drawing.Point(724, 313);
+            this.currentTreatmentPlan.Location = new System.Drawing.Point(989, 318);
             this.currentTreatmentPlan.Name = "currentTreatmentPlan";
-            this.currentTreatmentPlan.Size = new System.Drawing.Size(202, 54);
+            this.currentTreatmentPlan.Size = new System.Drawing.Size(323, 54);
             this.currentTreatmentPlan.TabIndex = 26;
             this.currentTreatmentPlan.Text = "";
             // 
@@ -205,9 +205,9 @@
             this.currentDisease.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.currentDisease.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentDisease.ForeColor = System.Drawing.Color.Blue;
-            this.currentDisease.Location = new System.Drawing.Point(724, 244);
+            this.currentDisease.Location = new System.Drawing.Point(991, 249);
             this.currentDisease.Name = "currentDisease";
-            this.currentDisease.Size = new System.Drawing.Size(202, 51);
+            this.currentDisease.Size = new System.Drawing.Size(321, 51);
             this.currentDisease.TabIndex = 25;
             this.currentDisease.Text = "";
             // 
@@ -216,18 +216,18 @@
             this.currentMedicalCondition.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.currentMedicalCondition.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentMedicalCondition.ForeColor = System.Drawing.Color.Blue;
-            this.currentMedicalCondition.Location = new System.Drawing.Point(726, 181);
+            this.currentMedicalCondition.Location = new System.Drawing.Point(991, 186);
             this.currentMedicalCondition.Name = "currentMedicalCondition";
-            this.currentMedicalCondition.Size = new System.Drawing.Size(200, 47);
+            this.currentMedicalCondition.Size = new System.Drawing.Size(321, 47);
             this.currentMedicalCondition.TabIndex = 24;
             this.currentMedicalCondition.Text = "";
             // 
             // currentDate
             // 
             this.currentDate.CalendarFont = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentDate.Location = new System.Drawing.Point(726, 128);
+            this.currentDate.Location = new System.Drawing.Point(991, 133);
             this.currentDate.Name = "currentDate";
-            this.currentDate.Size = new System.Drawing.Size(200, 20);
+            this.currentDate.Size = new System.Drawing.Size(319, 20);
             this.currentDate.TabIndex = 28;
             // 
             // richTextBox7
@@ -238,6 +238,7 @@
             this.richTextBox7.ForeColor = System.Drawing.Color.White;
             this.richTextBox7.Location = new System.Drawing.Point(284, 12);
             this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
             this.richTextBox7.Size = new System.Drawing.Size(473, 50);
             this.richTextBox7.TabIndex = 30;
             this.richTextBox7.Text = "Prisoner Medical Checkup";
@@ -332,7 +333,7 @@
             this.richTextBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox13.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox13.ForeColor = System.Drawing.Color.White;
-            this.richTextBox13.Location = new System.Drawing.Point(523, 108);
+            this.richTextBox13.Location = new System.Drawing.Point(788, 113);
             this.richTextBox13.Name = "richTextBox13";
             this.richTextBox13.ReadOnly = true;
             this.richTextBox13.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -346,7 +347,7 @@
             this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox8.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox8.ForeColor = System.Drawing.Color.White;
-            this.richTextBox8.Location = new System.Drawing.Point(523, 174);
+            this.richTextBox8.Location = new System.Drawing.Point(788, 179);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.ReadOnly = true;
             this.richTextBox8.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -360,7 +361,7 @@
             this.richTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox9.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox9.ForeColor = System.Drawing.Color.White;
-            this.richTextBox9.Location = new System.Drawing.Point(523, 256);
+            this.richTextBox9.Location = new System.Drawing.Point(788, 261);
             this.richTextBox9.Name = "richTextBox9";
             this.richTextBox9.ReadOnly = true;
             this.richTextBox9.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -374,7 +375,7 @@
             this.richTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox10.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox10.ForeColor = System.Drawing.Color.White;
-            this.richTextBox10.Location = new System.Drawing.Point(523, 313);
+            this.richTextBox10.Location = new System.Drawing.Point(788, 318);
             this.richTextBox10.Name = "richTextBox10";
             this.richTextBox10.ReadOnly = true;
             this.richTextBox10.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -388,7 +389,7 @@
             this.richTextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox11.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox11.ForeColor = System.Drawing.Color.White;
-            this.richTextBox11.Location = new System.Drawing.Point(523, 385);
+            this.richTextBox11.Location = new System.Drawing.Point(788, 390);
             this.richTextBox11.Name = "richTextBox11";
             this.richTextBox11.ReadOnly = true;
             this.richTextBox11.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
@@ -415,6 +416,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // create_medical_report
             // 

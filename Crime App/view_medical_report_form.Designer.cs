@@ -161,6 +161,7 @@
             this.richTextBox10.ForeColor = System.Drawing.Color.White;
             this.richTextBox10.Location = new System.Drawing.Point(697, 203);
             this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.ReadOnly = true;
             this.richTextBox10.Size = new System.Drawing.Size(189, 46);
             this.richTextBox10.TabIndex = 14;
             this.richTextBox10.Text = "Medical History";
@@ -242,6 +243,7 @@
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
             this.richTextBox1.Location = new System.Drawing.Point(12, 129);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(218, 48);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "Select Prisoner ID";
@@ -254,6 +256,7 @@
             this.richTextBox3.ForeColor = System.Drawing.Color.White;
             this.richTextBox3.Location = new System.Drawing.Point(310, 12);
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(734, 67);
             this.richTextBox3.TabIndex = 30;
             this.richTextBox3.Text = "View Medical Report";
@@ -266,6 +269,7 @@
             this.richTextBox5.ForeColor = System.Drawing.Color.White;
             this.richTextBox5.Location = new System.Drawing.Point(12, 203);
             this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(218, 48);
             this.richTextBox5.TabIndex = 32;
             this.richTextBox5.Text = "Prisoner Name";
@@ -278,6 +282,7 @@
             this.richTextBox6.ForeColor = System.Drawing.Color.White;
             this.richTextBox6.Location = new System.Drawing.Point(12, 267);
             this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
             this.richTextBox6.Size = new System.Drawing.Size(218, 48);
             this.richTextBox6.TabIndex = 33;
             this.richTextBox6.Text = "Doctor ID";
@@ -290,6 +295,7 @@
             this.richTextBox2.ForeColor = System.Drawing.Color.White;
             this.richTextBox2.Location = new System.Drawing.Point(12, 330);
             this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(163, 48);
             this.richTextBox2.TabIndex = 34;
             this.richTextBox2.Text = "Doctor Name";
@@ -302,6 +308,7 @@
             this.richTextBox4.ForeColor = System.Drawing.Color.White;
             this.richTextBox4.Location = new System.Drawing.Point(12, 395);
             this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(163, 48);
             this.richTextBox4.TabIndex = 35;
             this.richTextBox4.Text = "Date";
@@ -314,6 +321,7 @@
             this.richTextBox7.ForeColor = System.Drawing.Color.White;
             this.richTextBox7.Location = new System.Drawing.Point(12, 468);
             this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
             this.richTextBox7.Size = new System.Drawing.Size(163, 48);
             this.richTextBox7.TabIndex = 36;
             this.richTextBox7.Text = "Time";
@@ -326,6 +334,7 @@
             this.richTextBox8.ForeColor = System.Drawing.Color.White;
             this.richTextBox8.Location = new System.Drawing.Point(697, 267);
             this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.ReadOnly = true;
             this.richTextBox8.Size = new System.Drawing.Size(189, 46);
             this.richTextBox8.TabIndex = 37;
             this.richTextBox8.Text = "Disease";
@@ -338,6 +347,7 @@
             this.richTextBox9.ForeColor = System.Drawing.Color.White;
             this.richTextBox9.Location = new System.Drawing.Point(697, 332);
             this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.ReadOnly = true;
             this.richTextBox9.Size = new System.Drawing.Size(189, 46);
             this.richTextBox9.TabIndex = 38;
             this.richTextBox9.Text = "Treatment Plan";
@@ -350,6 +360,7 @@
             this.richTextBox11.ForeColor = System.Drawing.Color.White;
             this.richTextBox11.Location = new System.Drawing.Point(697, 393);
             this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.ReadOnly = true;
             this.richTextBox11.Size = new System.Drawing.Size(189, 46);
             this.richTextBox11.TabIndex = 39;
             this.richTextBox11.Text = "Mental Condition";
@@ -362,6 +373,7 @@
             this.richTextBox12.ForeColor = System.Drawing.Color.White;
             this.richTextBox12.Location = new System.Drawing.Point(697, 470);
             this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.ReadOnly = true;
             this.richTextBox12.Size = new System.Drawing.Size(189, 46);
             this.richTextBox12.TabIndex = 40;
             this.richTextBox12.Text = "Prisoner DOB";
@@ -374,6 +386,7 @@
             this.richTextBox13.ForeColor = System.Drawing.Color.White;
             this.richTextBox13.Location = new System.Drawing.Point(697, 522);
             this.richTextBox13.Name = "richTextBox13";
+            this.richTextBox13.ReadOnly = true;
             this.richTextBox13.Size = new System.Drawing.Size(189, 46);
             this.richTextBox13.TabIndex = 41;
             this.richTextBox13.Text = "Prisoner Gender";
@@ -386,6 +399,7 @@
             this.richTextBox14.ForeColor = System.Drawing.Color.White;
             this.richTextBox14.Location = new System.Drawing.Point(691, 129);
             this.richTextBox14.Name = "richTextBox14";
+            this.richTextBox14.ReadOnly = true;
             this.richTextBox14.Size = new System.Drawing.Size(195, 48);
             this.richTextBox14.TabIndex = 42;
             this.richTextBox14.Text = "Select Doctor ID";

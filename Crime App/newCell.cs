@@ -20,6 +20,11 @@ namespace Crime_App
             cellCapacity.Clear();
             discription.Clear();
             maintainanceNotes.Clear();
+            this.StartPosition = FormStartPosition.Manual;
+
+            // Set the location to the desired position
+            this.Location = new Point(20, 30);
+            FormBorderStyle = FormBorderStyle.None;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -36,7 +41,19 @@ namespace Crime_App
         {
 
 
-            int cell_number=int.Parse(cellNumber.Text);
+            int cell_number;
+
+            if (int.TryParse(cellNumber.Text, out cell_number))
+            {
+                // Parsing succeeded, 'cell_number' now contains the parsed integer value
+            }
+            else
+            {
+                // Parsing failed, 'cell_number' will be 0
+                // Display an error message to the user or handle the error appropriately
+                MessageBox.Show("Please enter a valid integer for the cell number.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             if (IsCellNumberExists(cell_number))
             {
                 MessageBox.Show("Cell number already exists. Please enter a different cell number.");
@@ -83,9 +100,13 @@ namespace Crime_App
                         command.Parameters.AddWithValue("@cellOccupancy", cell_occupancy);
                         command.Parameters.AddWithValue("@cellDescription", cell_description);
                         command.Parameters.AddWithValue("@securityLevel", security_level);
+                        DateTime dateAcquired = startInspectionDate.Value.Date;
                         command.Parameters.AddWithValue("@maintenanceNotes", maintenance_notes);
-                        command.Parameters.AddWithValue("@lastInspectionDate", inspection_date);
-                        command.Parameters.AddWithValue("@nextInspectionDate", next_inspection_date);
+
+                        command.Parameters.AddWithValue("@lastInspectionDate", dateAcquired);
+                        dateAcquired = nextInspectionDate.Value.Date;
+                        command.Parameters.AddWithValue("@nextInspectionDate", dateAcquired);
+                        
                         command.Parameters.AddWithValue("@cleanliness", cell_cleanliness);
                         command.Parameters.AddWithValue("@accessibility", cell_accessibility);
                         command.Parameters.AddWithValue("@status", cell_status);
@@ -126,6 +147,15 @@ namespace Crime_App
             }
         }
 
+        private void newCell_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            cell_management c =  new cell_management();
+            c.Show();
+        }
     }
 }
